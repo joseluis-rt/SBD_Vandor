@@ -139,12 +139,64 @@ Selecione o nome da classificação destes dispositivos de armazenamento.
 <br/>
 <br/>
 
+
+
+
+
+
+
 ## Escolha Múltipla
+---
+Selecione as opções relacionadas ao armazenmento em ARQUIVO de dados que sejam adequadas as características deste tipo de armazenamento.
+ 
+- [ ] A falta de energia elêtrica promove a perda de dados expressivamente.
+- [x] **Conjunto de registros armazenados em um dispositivo de memória secundária.**
+- [ ] Recurso de armazenamento persistente e volátil.
+- [x] **Os registros são armazenados de maneira organizada para serem mais eficientes ao seu uso.** 
+
+---
+Indique qual ou quais são os aspectos importantes para a decisão de qual tipo de armazenamento será adotado para guardar os dados manipulados por sistemas computacionais.
+
+- [x] **Velocidade de operação sobre os dados armazenados**
+- [x] **Capacidade de Armazenamento**
+- [x] **Custo ou valor financeiro para aquisição e manutenção do recurso.**
+- [ ] Classificação do dispositivo em Primária, Secundária ou Terciária. 
+
+---
+Indique qual ou quais são as características relacionadas aos **Arquivos Diretos** usados no armazenamento de dados em sistemas computacionais.
+
+- [x] **Instala os registros em endereços determinados e com base na sua chave primária.**
+- [ ] Registros não dispostos fisicamente de maneira a respeitar uma chave de organização.
+- [ ] Seu principal objetivo é a eficiência no acesso sequencial, sem usar a chave contida no próprio registro.
+- [x] **Não utiliza uma estrutura de índice.**
+
+---
+Dentre as opções selecione somente os dispositivos que pertencem a classificação de **Memória Secundária**.
+ 
+- [ ]	Disco Óptico (CD ou DVD)
+- [x] **Disco Magnético (HD).**
+- [x] **Pen drive**
+- [ ] Cache 
+
+---
+
+
+
+
 
 <br/>
 <br/>
 <br/>
 <br/>
+
+
+
+
+
+
+
+
+
 
 ## Lacuna
 ---
