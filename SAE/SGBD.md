@@ -20,6 +20,11 @@ Por isso, sempre que existir necessidade de armazenar dados e informações em r
 
 ---
 
+A existência de um Banco de Dados está condicionada ao emprego adequado de recursos computacionais.
+
+**```Resposta: Falso```**
+
+---
 
 
 
