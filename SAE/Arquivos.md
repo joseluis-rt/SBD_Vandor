@@ -4,8 +4,9 @@ Arquivos são a unidade básica de armazenamento em um sistema de banco de dados
 
 # Questões SAE (Arquivos)
 
+## V ou F
 ---
-### Arquivos 1
+### Arquivos
 
 - [x] Tarefa concluída
 - [ ] Tarefa não concluída
@@ -14,8 +15,9 @@ De acordo com **```Resposta```**  , é verdade
 
 ---
 
+##Múltipla Escolha
 ---
-### Arquivos 2
+### Arquivos
 
 - [x] Tarefa concluída
 - [ ] Tarefa não concluída
@@ -23,3 +25,7 @@ De acordo com **```Resposta```**  , é verdade
 De acordo com **```Resposta```**  , é verdade
 
 ---
+
+## Escolha Múltipla
+
+## Lacuna
