@@ -8,7 +8,7 @@ Não existem ferramentas computacionais que supram todas as necessidades da Enge
 
 ---
 
-O Modelo de Dados em Banco de Dados consiste de um conjunto de conceitos utilizados para descrever a estrutura do Banco de Dados.
+O **Modelo de Dados** em Banco de Dados consiste de um conjunto de conceitos utilizados para descrever a estrutura do Banco de Dados.
 
 **```Resposta: Verdadeiro```**
 
@@ -19,12 +19,17 @@ A figura geométrica do RETÂNGULO, no Diagrama de Entidade e Relacionamento (DE
 
 ---
 
-Computer-Aided Software Engineering corresponde a um tipo de arquitetura computacional que constrói computadores com recursos de suporte para a construção de softwares.
+**Computer-Aided Software Engineering** corresponde a um tipo de arquitetura computacional que constrói computadores com recursos de suporte para a construção de softwares.
 
  **```Resposta: Falso```**
  
 ---
 
+A UNIFORMIZAÇÃO poderia ser indicada como uma característica positiva (vantagem) no emprego de Ferramentas CASE na elaboração de softwares (sistemas computacionais) pela Engenharia de Software.
+ 
+**```Resposta: Verdadeiro```**
+
+---
 
 
 
