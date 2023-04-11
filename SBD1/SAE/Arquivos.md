@@ -147,6 +147,31 @@ Selecione o nome da classificação destes dispositivos de armazenamento.
 <br/>
 
 ## Lacuna
+---
+Complete com a expressão correta e EXATA a identificação deste tipo de chave comum na operação computacional que trabalha com arquivos de dados.
+ 
+Não use espaço em branco em sua resposta e análise a frase para preenche-la corretamente ao qual esta expressão estará completando com a sintaxe e semântica corretas, além da coerência lógica que a frase solicita o seu conhecimento sobre este conteúdo de estudo.
+ 
+**Frase:** 	Chave de **```Ordenação```** é a chave primária usada para estabelecer a sequência na qual devem ser dispostos os registros em um arquivo. 
 
+---
+Esse recurso computacional, usado na manipulação de arquivos de dados, é formado por uma coleção de pares, associando um valor da chave de acesso a um endereço físico no arquivo, sendo sempre específico a uma chave de acesso específica.
+ 
+Analise a afirmação acima e complete a frase abaixo de maneira correta e sem nenhum espaço em branco.
+ 
+Atente a grafia correta para completar esta afirmação de maneira adequada a língua portuguesa.
+ 
+**Frase:** 	Os **```índices```** exigem uma área de extensão ao seu uso em arquivos de dados. 
 
+---
+Complete a frase a seguir sem usar nenhum espaço em branco, além de respeitar a linguagem correta do português em sintaxe e semântica.
+ 
+**Frase:** 	**```Registro```** corresponde a um conjunto de unidades de informação logicamente relacionadas e armazenadas em arquivo. 
+
+---
+Analise a afirmação coerente aos dispositivos para armazenamento seguro de dados, sendo geralmente utilizada como cópia de segurança em sistemas computacionais (backup).
+ 
+Complete a afirmação sem usar espaços e respeitando a sintaxe correta em língua portuguesa.
+ 
+**Frase:** 	As **```fitas```** magnéticas são os dispositivos mais baratos e lentos porque precisam ser acessados sequencialmente a partir do início. 
 
