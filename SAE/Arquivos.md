@@ -35,7 +35,7 @@ Os Arquivos Diretos não são indicados para uso em aplicações com atualizaç�
 A maior velocidade de acesso e eficiência na recuperação de dados está relacionada a qual classificação dos dispositos de armazenamento de dados computacionais.
 Resposta correta:
  
-- [x] Primária   
+- [x] **Primária**
 - [ ] Secundária     
 - [ ] Terciária     
 - [ ] A velocidade não é considerada neste tipo de classificação.
