@@ -35,11 +35,6 @@ A UNIFORMIZAÇÃO poderia ser indicada como uma característica positiva (vantag
 
 
 
-
-
-
-
-
 <br/>
 <br/>
 <br/>
@@ -47,22 +42,144 @@ A UNIFORMIZAÇÃO poderia ser indicada como uma característica positiva (vantag
 
 ## Múltipla Escolha
 
-- [x] Tarefa concluída
-- [ ] Tarefa não concluída
+---
+Escolha a associação correta entre os níveis diferentes de Modelagem em Banco de dados.
 
-De acordo com **```Resposta```**  , é verdade
+**A=Modelo de Dados Conceitual**
+
+**B=Modelo de Dados de Implementação**
+
+**C=Modelo de Dados Físico**
+ 
+Afirmações:
+1=Descreve como os dados são armazenados.
+2=Fornece conceitos que são próximos da percepção dos usuários a respeito dos dados.
+3=Usado em SGBDs comerciais, sendo o mais popular denominado Modelo Relacional.
+ 
+- [ ] A afirmação 1 está associada com o Modelo A, enquanto a 2 está com B e a afirmação 3 está com C.
+- [ ] A afirmação 1 está associada com o Modelo B, enquanto a 2 está com C e a afirmação 3 está com A.
+- [ ] A afirmação 1 está associada com o Modelo C, enquanto a 2 está com A e a afirmação 3 está com B.
+- [ ] A afirmação 1 está associada com o Modelo C, enquanto a 2 está com B e a afirmação 3 está com A. 
+
+---
+Observe a ilustração da Arquitetura em Banco de Dados (BD) a seguir e selecione a opção mais correta com o Nível C indicado nesta ilustração.
+ 
+ 
+**(Arquitetura BD)**
+ 
+ 
+- [ ] Descreve as definições lógicas no nível conceitual de um Modelo de Dados.
+- [ ] Descreve parte do BD por meio de estruturas mais simples que no Nível B.
+- [ ] Descreve como os dados estão armazenados, onde complexas estruturas são descritas em detalhes.
+- [ ] É descrito em detalhes no Modelo Entidade-Relacionamento e no DE-R correspondente. 
 
 ---
 
+A figura a seguir possui várias elipses, onde você deverá indicar, por meio da letra correspondente a elipse correta, o que esta figura geométrica representa no DE-R e qual delas seria a representação de Composto ou Composta.
+ 
+**(Elipses no DE-R)**
+ 
+ 
+- [ ] A letra E corresponde a um Atributo Composto.
+- [ ] A letra C corresponde a um Atributo Composto.
+- [ ] A letra E corresponde a uma Entidade Composta.
+- [ ] A letra C corresponde a uma Chave Composta. 
+
+---
+
+(**Dataprev**: Infraestrutura e Aplicações)
+Selecione uma opção correta.
+É correto afirmar que, na modelagem entidade-relacionamento, haverá sempre uma entidade fraca quando:
+ 
+- [ ] Houver um relacionamento 1:1 entre as duas entidades.
+- [ ] Houver um relacionamento 1:N entre as duas entidades.
+- [ ] Houver um relacionamento de composição.
+- [ ] Houver um relacionamento identificador. 
+
+---
+
+
+
+
 <br/>
 <br/>
 <br/>
 <br/>
+
+
 
 ## Escolha Múltipla
 
+---
+Selecione a opção ou as opções que indiquem DESVANTAGENS importantes no uso de Ferramentas CASE nos processos de construção de sistemas computacionais pela Engenharia de Software.
+ 
+ 
+- [ ] Uniformização no processo de desenvolvimento de sistemas computacionais.
+- [ ] Elevada curva de aprendizagem no uso da ferramenta, apesar de sua facilidade de uso.
+- [ ] Elevado custo desse tipo de ferramenta e em seu uso.
+- [ ] Limitações na flexibilidade da documentação gerada pela ferramenta. 
 
 ---
+
+Análise a representação da Arquitetura de Banco de dados a seguir e selecione a opção ou opções mais coerentes com o **Nível B** indicado nesta representação.
+ 
+**(Arquitetura BD)**
+ 
+ 
+- [ ] O usuário final compreende em detalhes o Nível B, pois envolve os conceitos de suas atividades cotidianas.
+- [ ] O Nível B descreve como os dados realmente estão armazenados e suas estruturas no BD.
+- [ ] No Nível B o BD é descrito totalmente em termos de estruturas relativamente simples.
+- [ ] Descreve quais dados estão armazenados de fato e as relações existentes entre eles. 
+
+---
+
+Observe na figura a seguir as elipses que têm um identificador na cor AZUL (**B, D**) e selecione o que elas representação por meio de suas características corretas que a  diferenciam das demais elipses existentes nesta figura.  
+
+**(Elipses do DE-R)**
+ 
+- [ ] As figuras B e D representam atributos derivados no DE-R.
+- [ ] As figuras B e D representam chaves no diagrama (DE-R).
+- [ ] A figura B identifica somente uma chave classificada como candidata.
+- [ ] A figura B identifica somente uma chave classificada como primária. 
+
+---
+
+Selecione a opção, ou opções, que **NÃO** corresponde(m) a representação de uma **Entidade** no ME-R.
+ 
+- [ ] Pode existir em um relacionamento para descreve-lo melhor.
+- [ ] Conjunto de objetos da realidade modelada que se deseja armazenar dados.
+- [ ] Deve possuir a cardinalidade correspondente em sua descrição.
+- [ ] Pode representar objetos abstratos como curso, meio de transporte, viagem, etc. 
+
+---
+
+O **Modelo Entidade-Relacionamento (ME-R)** corresponde a uma importante ferramenta no processo de modelagem em Banco de Dados.
+ 
+Assim, verifique as afirmações a seguir e selecione a opção, ou opções, que sejam correspondentes as características e resposabilidade do ME-R no Projeto de Banco de Dados.
+ 
+ 
+- [ ] O ME-R especifica os detalhes exigidos na implementação física do Projeto de BD.
+- [ ] O ME-R é baseado na percepção do mundo real que representa um conjunto de objetos básicos importantes para o Projeto de BD.
+- [ ] O ME-R foi desenvolvido para facilitar a atividade de desenvolvimento de projetos em BD.
+- [ ] O ME-R permite a especificação de um esquema de negócio, onde tal esquema representa a estrutura lógica geral do BD. 
+
+---
+
+Observe a ilustração da Arquitetura de Banco de Dados abaixo e selecione a(s) opção(ões) correta(s) na identificação dos níveis diferentes desta arquitetura.
+ 
+Relacione os níveis **A, B ou C** com seus respectivos nomes ou classificações.
+ 
+ 
+**(Arquitetura BD)**
+ 
+ 
+- [ ] Nível B corresponde ao Nível Lógico.
+- [ ] Nível A corresponde ao Nível Interno.
+- [ ] Nível C corresponde ao Nível Interno.
+- [ ] Nível C corresponde ao Nível Externo. 
+
+---
+
 
 <br/>
 <br/>
@@ -70,6 +187,7 @@ De acordo com **```Resposta```**  , é verdade
 <br/>
 
 ## Lacuna
+
 ---
 Preencha a afirmação a seguir com a letra que indica qual representação está correta com tal afirmação abaixo.
 Não use nenhum espaço em branco em sua resposta, caso contrário ela será considerada incorreta.
@@ -88,7 +206,7 @@ Complete o nome deste recurso relevante na área de Banco de Dados respeitando a
 ---
 Análise a figura abaixo e indique por meio de seu identificador alfabético (A, B, C, D, E ou F) qual deles representa um atributo derivado no DE-R.
  
-(Elipses do DE-R)
+**(Elipses do DE-R)**
  
 Não utilize nenhum espaço em branco em sua resposta para que a mesma possa ser considerada correta.
  
