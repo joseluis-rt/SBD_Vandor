@@ -11,7 +11,7 @@ O **Diagrama de Esquemas** corresponde a uma representação simplificada do **D
 
 Cada linha de uma relação representa uma coleção de valores de dados que **NÃO** estão inter-relacionados, pois se estivessem não precisariam estar na mesma relação do Banco de Dados. 
 
-**```Resposta: ```**
+**```Resposta: Falso```**
 
 ---
 
@@ -35,7 +35,7 @@ Um **registro** no banco de dados é chamado de **tupla** no Modelo Relacional.
 
 A **ordem** das tuplas não é relevante para diferenciar uma relação de outra. 
 
-**```Resposta: ```**
+**```Resposta: Verdadeiro```**
 
 ---
 
@@ -51,7 +51,7 @@ Selecione entre as opções qual delas está mais próxima da implementação f�
  
 - [ ] Diagrama de Entidade e Relacionamento (DE-R)
 - [ ] Modelo de Entidade e Relacionamento (ME-R)
-- [ ] Modelo Relacional
+- [x] **Modelo Relacional**
 - [ ] Modelo Conceitual 
  
 ---
@@ -82,7 +82,7 @@ Assim, selecione qual afirmação **NÃO** corresponde a uma boa prática por se
 Selecione qual opção é realmente correspondente a **Restrição de Integridade de Entidade** em um Banco de Dados Relacional.
  
 - [ ] Uma chave primária só pode ser única em uma relação.
-- [ ] Uma chave primária não pode assumir valor NULO nas tuplas da relação.
+- [x] **Uma chave primária não pode assumir valor NULO nas tuplas da relação.**
 - [ ] Um atributo tem que ser atômico em uma relação.
 - [ ] Uma relação precisa ter uma chave primária definida. 
 
@@ -104,7 +104,7 @@ Selecione qual opção é realmente correspondente a **Restrição de Integridad
 ---
 Selecione qual ou quais são as exceções para a propriedade ATÔMICA, exigida nos atributos no Modelo Relacional.
  
-- [ ] Multivalorados
+- [x] **Multivalorados**
 - [ ] Derivados
 - [ ] Chave Primária
 - [ ] Chave Estrangeira 
@@ -116,7 +116,7 @@ Indique a opção ou opções corretas.
  
  
 - [ ] É a quantidade de Entidades que participam de um Relacionamento específico.
-- [ ] É a quantidade dos atributos existentes em uma relação.
+- [x] **É a quantidade dos atributos existentes em uma relação.**
 - [ ] É o número que corresponde ao nível do Modelo (1-Superior, 2 Conceitual e 3-Inferior).
 - [ ] É o número de relações existentes em um Projeto de Banco de Dados. 
 
@@ -140,9 +140,9 @@ Respeitando a regra relacionada a representação no Modelo Relacional de um
  
  
 - [ ] Inclua a chave primária da relação do lado 1 na relação do lado n como chave estrangeira.
-- [ ] Inclua a chave primária da relação do lado n na relação do lado 1 como chave estrangeira.
-- [ ] A existência de uma chave primária é obrigatória para efetivação deste relacionamento no Banco de Dados.
-- [ ] A existência de uma chave estrangeira é obrigatória para efetivação deste relacionamento no Banco de Dados. 
+- [x] **Inclua a chave primária da relação do lado n na relação do lado 1 como chave estrangeira.**
+- [x] **A existência de uma chave primária é obrigatória para efetivação deste relacionamento no Banco de Dados.**
+- [x] **A existência de uma chave estrangeira é obrigatória para efetivação deste relacionamento no Banco de Dados.**
 
 ---
 
@@ -183,18 +183,18 @@ Selecione somente as opções  que estiverem corretas com as características do
 
 Uma tabela no Modelo Relacional pode representar quais recursos identificados no Modelo de Entidade e Relacionamento (ME-R).
  
-- [ ] Relacionamento
+- [x] **Relacionamento**
 - [ ] Atributo Composto
 - [ ] Atributo Derivado
-- [ ] Atributo Multivalorado 
+- [x] **Atributo Multivalorado** 
 
 ---
 
 Indique o que as**Relações** no **Modelo Relacional** têm capacidade de representar em um Projeto de Banco de Dados.
  
 - [ ] Tabelas
-- [ ] Relacionamentos
-- [ ] Entidades
+- [x] **Relacionamentos**
+- [x] **Entidades**
 - [ ] Cardinalidades
 
 ---
@@ -215,7 +215,7 @@ Indique o que as**Relações** no **Modelo Relacional** têm capacidade de repre
 O **Modelo Relacional** utiliza de nomenclaturas específicas para seus principais conceitos ou componentes.  Assim, a expressão RELAÇÃO é tratada de maneira mais comum (ou vulgar) neste modelo por outra expressão.
 Consciente desta situação, complete a afirmação abaixo sem usar nenhum espaço em branco, indicando qual é esta expressão mais comum que também é usada para se abordar as relações no Modelo Relacional.
  
-**Frase:** 	A expressão RELAÇÃO é mais comumente chamada de **```ipsum```** no Modelo Relacional. 
+**Frase:** 	A expressão RELAÇÃO é mais comumente chamada de **```tabelas```** no Modelo Relacional. 
 
 ---
 
@@ -225,7 +225,7 @@ Qual é o nome identificador de uma destas chaves na Língua Portuguesa que pode
  
 Não use espaço em branco em sua resposta.
  
-**Frase:** 	Por meio da Restrição de Integridade Referencial surge um novo tipo peculiar de chave denominada **```ipsum```**. 
+**Frase:** 	Por meio da Restrição de Integridade Referencial surge um novo tipo peculiar de chave denominada **```estrangeira / secundária```**. 
 
 ---
 
@@ -233,27 +233,27 @@ Complete a afirmação a seguir sobre a **Restrição de Chaves** existente no M
  
 Não utilize espaço em branco em sua resposta e respeite as regras de sintaxe e semântica da Língua Portuguesa para que sua resposta possa estar correta.
  
-**Frase:**  	As Restrições de Chaves indicam que cada atributo das chaves **```ipsum```** deve possuir valor único em todas as tuplas da relação. 
+**Frase:**  	As Restrições de Chaves indicam que cada atributo das chaves **```candidatas```** deve possuir valor único em todas as tuplas da relação. 
 
 ---
 
 Complete a afirmação a seguir sem usar nenhum espaço em branco. Respeite as regras da Língua Portuguesa para se poder obter uma resposta correta.
  
-**Frase:** 	Na terminologia do Modelo Relacional, cada linha de uma relação é chamada de **```ipsum```**. 
+**Frase:** 	Na terminologia do Modelo Relacional, cada linha de uma relação é chamada de **```tupla```**. 
 
 ---
 
 Complete a afirmação a seguir sobre as terminologias do Modelo Relacional.
 Atente para as regras da Língua Portuguesa e não use espaços em branco para que sua resposta possa ser avaliada com possibilidades de estar correta.
  
-**Frase:** 	O nome de uma coluna que forma uma relação no Modelo Relacional é **```ipsum```** da relação. 
+**Frase:** 	O nome de uma coluna que forma uma relação no Modelo Relacional é **```atributo```** da relação. 
 
 ---
 
 Veja a afirmação sobre Modelo Relacional e complete-a com a expressão utilizada por este modelo.
 Não utilize espaços em branco em sua resposta e respeite as regras de sintaxe e semântica da Língua Portuguesa para que sua resposta possa estar correta.
  
-**Frase:** 	O conjunto de valores que cada atributo pode assumir em uma determinada relação corresponde ao seu **```ipsum```**. 
+**Frase:** 	O conjunto de valores que cada atributo pode assumir em uma determinada relação corresponde ao seu **```domínio```**. 
 
 ---
 
