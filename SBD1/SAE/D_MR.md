@@ -5,7 +5,7 @@
 O **Diagrama de Esquemas** corresponde a uma representação simplificada do **Diagrama Lógico** (ou de nível lógico) no processo de Modelagem de Banco de Dados (são representações gráficas do **Modelo Relacional de Dados**).
  
  
-**```Resposta: ```**
+**```Resposta: Verdadeiro```**
 
 ---
 
@@ -17,19 +17,19 @@ Cada linha de uma relação representa uma coleção de valores de dados que **N
 
 O relacionamento 1:n ou n:1 indica também qual é a entidade fraca e qual é a entidade forte de qualquer relacionamento com tal cardinalidade.
 
-**```Resposta: ```**
+**```Resposta: Falso```**
 
 ---
 
 A expressão TUPLA corresponde a um registro de dados completo, por exemplo, seria o cadastramento de todos os itens que compõe uma struct da Linguagem C. 
 
-**```Resposta: ```**
+**```Resposta: Verdadeiro```**
 
 ---
 
 Um **registro** no banco de dados é chamado de **tupla** no Modelo Relacional. 
 
-**```Resposta: ```**
+**```Resposta: Verdadeiro```**
 
 ---
 
@@ -64,7 +64,7 @@ Conhecendo a restrição de **Participação** para a modelagem de um banco de d
 - [ ] Integral
 - [ ] Parcial
 - [ ] Real
-- [ ] Total 
+- [x] **Total** 
 
 ---
 
@@ -73,7 +73,7 @@ A identificação de algumas restrições estabelecidas nas tabelas criadas em u
 Assim, selecione qual afirmação **NÃO** corresponde a uma boa prática por ser exigência do Sistema Gerenciador de Banco de Dados (SGBD) ou por não ser uma boa prática ou está errada.
  
 - [ ] Colocar identificação ou nome nas restrições implementadas em cada tabela.
-- [ ] Indicar qual tabela e atributo (ou atributos) são chaves estrangerias na própria tabela.
+- [x] **Indicar qual tabela e atributo (ou atributos) são chaves estrangerias na própria tabela.**
 - [ ] Usar as expressões significativas como PK, FK e outras no nome da restrição implementada na tabela.
 - [ ] Indicar qual tabela e atributo (ou atributos) formam a chave primária da própria tabela. 
 
@@ -126,8 +126,8 @@ Entre as opções relacionadas a seguir selecione somente aquela(s) que poderia(
  
  
 - [ ] Chave Primária
-- [ ] Entidade
-- [ ] Atributo multivalorado
+- [x] **Entidade**
+- [x] **Atributo multivalorado**
 - [ ] Chave Estrangeira 
 
 ---
@@ -139,8 +139,8 @@ Respeitando a regra relacionada a representação no Modelo Relacional de um
 , indique qual ou quais são as afirmações que explicam este processo envolvendo as relações (tabelas) que participam deste relacionamento.
  
  
-- [ ] Inclua a chave primária da relação do lado 1 na relação do lado n como chave estrangeira.
-- [x] **Inclua a chave primária da relação do lado n na relação do lado 1 como chave estrangeira.**
+- [x] **Inclua a chave primária da relação do lado 1 na relação do lado n como chave estrangeira.**
+- [ ] Inclua a chave primária da relação do lado n na relação do lado 1 como chave estrangeira.
 - [x] **A existência de uma chave primária é obrigatória para efetivação deste relacionamento no Banco de Dados.**
 - [x] **A existência de uma chave estrangeira é obrigatória para efetivação deste relacionamento no Banco de Dados.**
 
@@ -151,7 +151,7 @@ De acordo com a restrição de participação, como seria o mapeamento de um rel
 - [ ] A chave primária da entidade do lado 1 do relacionamento seria incluída como chave estrangeira na outra entidade.
 - [ ] As chaves primárias de cada entidade que participa de um relacionamento 1:1 formariam uma nova tebala estabelecendo o relacionamento.
 - [ ] No relacionamento 1:1 tanto faz a chave primária que se tornará estrangeira na outra entidade que participa do relacionamento.
-- [ ] A entidade com participação total no relacionamento receberá a chave primária da outra entidade como estrangeira. 
+- [x] **A entidade com participação total no relacionamento receberá a chave primária da outra entidade como estrangeira.**
 
 ---
 
@@ -163,8 +163,8 @@ Observando a descrição dos atributos provenientes de um ME-R (Modelo Entidade-
 **CURSO (codigo, nomeCurso)**  
  
  
-- [ ] Ausência de outra tabela se o relacionamento for N:M entre ALUNO e CURSO, por exemplo, relacionamento "faz".
-- [ ] Atributo(s) com acento
+- [x] **Ausência de outra tabela se o relacionamento for N:M entre ALUNO e CURSO, por exemplo, relacionamento "faz".**
+- [x] **Atributo(s) com acento**
 - [ ] Atributo código em ALUNO não está sinalizado como chave estrangeira na descrição.
 - [ ] Telefone possui notação incorreta para atributo multivalorado que deveria ser entre parênteses. 
 
@@ -174,8 +174,8 @@ Ao que corresponde um **Diagrama de Esquemas (DE)** em um projeto de banco de da
  
 Selecione somente as opções  que estiverem corretas com as características do **DE** em um Projeto de Banco de Dados.
  
-- [ ] Corresponde a organização do nível conceitual de um projeto de banco de dados em seu nível lógico (mapeamento).
-- [ ] Simplificação do mapeamento do Modelo Entidade-Relacionamento em Modelo Relacional de Dados.
+- [x] **Corresponde a organização do nível conceitual de um projeto de banco de dados em seu nível lógico (mapeamento).**
+- [x] **Simplificação do mapeamento do Modelo Entidade-Relacionamento em Modelo Relacional de Dados.**
 - [ ] Indica como ficarão os esquemas somente de cada entidade que forma o projeto de banco de dados.
 - [ ] Define como serão implementadas todas as tabelas no SGBD, conforme a cardinalidade e os tipos de dados de cada atributo. 
 
@@ -260,7 +260,7 @@ Não utilize espaços em branco em sua resposta e respeite as regras de sintaxe 
 Manter a integridade dos dados armazedos é relevante para qualquer base de dados, devendo ser evitada redundância dos dados. O conhecimento do projetista sobre as caracteríscas de cada atributo garantirão uma melhor implementação. Por exemplo, armazenar em um atributo parentesco a classificação capaz de identificar se uma pessoa teria o parentesco de tio, avó entre outros. Mas se forem registrados como titio ou vovó uma recuperação só de tio, não abrangerá os parentes registrados como titio.
 Com um projeto de BD poderia evitar isso? Complete a frase sem espaço e respeitando a língua portugusa.
  
-**Frase:** 	Criando uma nova **```ipsum```** no projeto que cadastre os parentescos possíveis e se relacione com a entidade que teria o atributo em questão. 
+**Frase:** 	Criando uma nova **```tabela```** no projeto que cadastre os parentescos possíveis e se relacione com a entidade que teria o atributo em questão. 
 
 ---
 
