@@ -190,7 +190,7 @@ Uma tabela no Modelo Relacional pode representar quais recursos identificados no
 
 ---
 
-Indique o que as**Relações** no **Modelo Relacional** têm capacidade de representar em um Projeto de Banco de Dados.
+Indique o que as **Relações** no **Modelo Relacional** têm capacidade de representar em um Projeto de Banco de Dados.
  
 - [ ] Tabelas
 - [x] **Relacionamentos**
