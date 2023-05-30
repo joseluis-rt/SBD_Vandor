@@ -69,13 +69,6 @@ Consciente da afirmação acima selecione qual seria o critério relacionado a e
 
 ---
 
-
-
-
-
-
-
-
 <br/>
 <br/>
 <br/>
@@ -89,17 +82,50 @@ Consciente da afirmação acima selecione qual seria o critério relacionado a e
 
 ## Escolha Múltipla
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+O controle de consistência dos dados pode ser exercido em três níveis principais.
+ 
+Selecione quais níveis seriam estes, se eles estiverem presentes nas opções de resposta desta questão.
 
-- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.**
-- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.** 
+- [x] **Nível do Aplicativo que acessa o Banco de Dados.**
+- [x] **Nível do Sistema Gerenciador de Banco de Dados (SGBD).**
+- [ ] Nível de Junção das Tabelas existentes no Banco de Dados.
+- [ ] Nivel de Representação dos respectivos Diagramas para modelagem do Banco de Dados.  
 
 ---
+As restrições da Linguagem SQL são usadas para especificar regras para os dados que serão armazenados em relações ou tabelas.
+ 
+Quais dos itens relacionados a seguir seriam restrições possíveis de serem implementadas pela SQL?
 
+- [x] **NOT NULL**
+- [x] **UNIQUE**
+- [x] **CHECK**
+- [ ] ALTER 
 
+---
+Baseado nos critérios informais de apoio ao desenvolvimento de um Modelo Relacional adequado a um projeto de banco de dados, indique quais das operações de manipulação de dados armazenados sofrem problemas para atender ao seu usuário quando não é respeitada as regras para o controle da Redundância.
 
+- [x] **Exclusão**
+- [x] **Inserção**
+- [x] **Alteração**
+- [x] **Consulta**  
+
+---
+Um atributo que possua valor nulo permite diferentes interpretações ao usuário que recupera uma tupla que possua tal atributo. Indique entre as opções abaixo, qual ou quais interpretações lhe seriam possíveis.
+
+- [ ] Atributo não é importante ao uso deste banco de dados.
+- [x] **Atributo não se aplica para esta tupla.**
+- [x] **Valor do atributo para esta tupla é desconhecido.**
+- [x] **Valor é conhecido, mas encontra-se ausente no banco de dados.**
+
+---
+Diante do processo conhecido como NORMALIZAÇÃO em Banco de Dados seleione a opção ou opções que são condizentes com este importante processo no Projeto de Banco de Dados Relacionais.
+
+- [ ] Aplica um conjunto de regras com o principal objetivo de garantir espaço para o armazenamento no Banco de Dados.
+- [x] **Permite ao projetista controlar o quanto de consistência é garantida no Projeto do Banco de Dados.**
+- [x] **Aplica uma série de regras com o principal objetivo de garantir a consistência dos dados armazenados no Banco de Dados.**
+- [ ] Permite ao projetista controlar o quanto de redundância será permitido no Banco de Dados. 
+
+---
 
 <br/>
 <br/>
