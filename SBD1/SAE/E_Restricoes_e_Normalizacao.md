@@ -169,3 +169,13 @@ Sobre as possíveis restrições que podem ser implementadas em uma tabela, refl
 ---
 
 
+## Escrita
+---
+Explique com suas palavras qual é a Primeira Forma Normal a ser aplicada em um processo de Normalização em um  Banco de Dados.
+ 
+Sua resposta deve possuir mais de 100 caracteres (até 500) explicando o que define a Primeira Forma Normal para que uma pessoa mais leiga neste assunto possa entendê-la.
+
+**```A Primeira Forma Normal (1FN) estabelece que uma tabela deve ter uma estrutura bem definida, sem repetição de grupos de valores e com atributos atômicos. Isso significa que cada coluna da tabela deve conter apenas um valor simples e indivisível, evitando agrupamentos de valores ou listas.```**
+---
+
+
