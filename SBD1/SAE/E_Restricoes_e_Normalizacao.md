@@ -32,13 +32,44 @@ A indicação de que um esquema relacional está eficiente é realizada quando a
 
 ## Múltipla Escolha
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
- 
-- [x] **Lore ipsum**
-- [ ] Lore ipsum    
-- [ ] Lore ipsum     
-- [ ] Lore ipsum
+O controle de consistência sendo implemendado em um banco de dados no nível da própria construção do sistema de informações que o acessará é mais eficiente, sendo destacado qual item de melhoria no Sistema Gerenciador de Banco de Dados (SGBD). 
+
+- [x] **Melhora o desempenho do SGBD.**
+- [ ] Fornece mais segurança aos dados armazenados no SGBD.    
+- [ ] Diminui a complexidade do sistema que acessará o SGBD.     
+- [ ] Diminui a complexidade do SGBD.
+
 ---
+A implementação do nível de controle da consistência por meio da próprio sistema de informação que acessará um Banco de Dados, e não no nível do SGBD, compromete ou fragiliza qual dos itens indicados como relevantes a um Banco de Dados.
+ 
+- [x] **Segurança**
+- [ ] Desempenho    
+- [ ] Projeto e Modelagem     
+- [ ] Eficiência 
+
+---
+A consistência e a integridade dos dados em um banco de dados (Sistema Gerenciador de Banco de Dados - SGBD) são relevantes ao investimento de recursos que armazenam e permitem a manipulação dos dados em uma organização.
+ 
+Em projetos de desenvolvimento de softwares o controle de consistência dos dados que serão armazenados pode ser exercido em alguns níveis.   Selecione entre as opções relacionadas qual dos níveis indicados seria o mais eficiente.
+ 
+- [ ] Controle somente pelo Sistema Gerenciador de Banco de Dados.
+- [ ] Controle na identificação dos requisitos do projeto.
+- [ ] Controle somente pelo software ou aplicativo que será desenvolvido.
+- [x] **Controle pela própria construção do sistema.**
+
+---
+Sempre que um conjunto de atributos é agrupado em uma relação (tabela), um determinado significado é associado a eles. Este significado identifica como devem ser interpretados os atributos pertencentes a cada tupla da relação.
+ 
+Consciente da afirmação acima selecione qual seria o critério relacionado a esta afirmação que pode proporcionar um projeto de banco de dados mais eficiente ou não. 
+ 
+- [x] **Semântica dos atributos de uma relação**
+- [ ] Redundância de valores
+- [ ] Valores nulos em tuplas
+- [ ] Controle de relacionamento por chave 
+
+---
+
+
 
 
 
