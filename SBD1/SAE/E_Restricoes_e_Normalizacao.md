@@ -168,6 +168,10 @@ Sobre as possíveis restrições que podem ser implementadas em uma tabela, refl
 
 ---
 
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## Escrita
 ---
