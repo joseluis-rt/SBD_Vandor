@@ -179,11 +179,27 @@ Veja qual a cardinalidade mais adequada a ser usada nestas 3 opções de conjunt
 
 ## Lacuna
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Escreva a expressão (nome da operação sobre conjuntos) correta que identifica a operação que entre 2 relações gera todas as combinações possíveis entre as tuplas contidas nestas duas relações.
+
+A língua portuguesa deve ser respeitada para que sua solução seja considerada correta, caso contrário a identificação correta do nome desta operação estará incorreta. 
  
-**Frase:** 	Lorem **```ipsum```** dolor sit amet, consectetur adipiscing elit.
+**Frase:** 	A operação que gera todas as possíveis combinações como resultado entre 2 relações é denominada **```Produto Cartesiano```**.
 
 ---
+Complete a frase a seguir com o nome da operação correta que seleciona atributos de uma relação de acordo com uma lista de atributos indicados.
 
+Os atributos são exibidos na mesma ordem que aparecem nessa lista.  
+Respeite os padrões da língua portuguesa em sua resposta e não use nenhum espaço em branco em sua resposta.
+ 
+**Frase:** 	Operação que define os atributos que apresentarão seus dados respeitando a sequência indicada chama-se **```Projeção```**.
 
+---
+Observe a relação representada na figura abaixo e complete a frase corretamente.
+ 
+Digite somente o valor exato e numérico deste grau e não seu valor por extenso.
+ 
+"Relação Pessoa"
 
+**Frase:** 	O grau da relação PESSOA é **```4```**.
+
+---
