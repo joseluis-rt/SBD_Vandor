@@ -60,20 +60,16 @@ A Linguagem SQL de Banco de Dados é procedural, permitindo a operação direta 
 
 ---
 
-
-
-
-
-
-
-
-
-
-
 <br/>
 <br/>
 <br/>
 <br/>
+
+
+
+
+
+
 
 ## Múltipla Escolha
 ---
@@ -112,9 +108,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 ---
 
-
-
-
 <br/>
 <br/>
 <br/>
@@ -131,12 +124,86 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 ## Lacuna
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Complete a frase a seguir para possuir uma afirmação mais correta usando uma das expressões a seguir.
+Atente a grafia exata e correta destas expressões na Língua Portuguesa e oficial no Brasil.
+ 
+1=DEFINIÇÃO
+ 
+2=OPERAÇÃO
+ 
+3=MANIPULAÇÃO
+ 
+4=REALIZAÇÃO
+ 
+5=RECUPERAÇÃO 
  
 **Frase:** 	Lorem **```ipsum```** dolor sit amet, consectetur adipiscing elit.
 
 ---
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+ 
+**Frase:** 	As instruções SQL que correspondem a DDL desta linguagem de Banco de Dados podem ser classificadas por instruções de **```DEFINIÇÃO```**.
 
+---
+Complete a instrução a seguir com a palavra reservada que deve estar em uma tabela para implementar restrições, como chaves (primárias, estrangeiras), checagem de valor que poderá ser aceito em um atributo para ser armazenado ou não entre outras, na criação de uma tabela.
+ 
+Esta palavra reservada colabora com a documentação. Complete a instrução que estaria fazendo parte do comando que criará uma tabela de Carro com uma única expressão e respeitando a sintaxe exata para sua utilização em SQL.
+ 
+**Frase:** 	**```CONSTRAINT```** CARRO_PK PRIMARY KEY(CHASSI), 
 
+---
+Complete a frase a seguir respeitando todas as regras da língua portuguesa, além de NÃO possuir nenhum espaço em branco para poder ser considerada correta sua resposta sobre SGBD (Sistema Gerenciador de Banco de Dados).
+ 
+**Frase:** 	Instruções DDL constituem o dicionário de dados do SGBD que fornece dados sobre os dados, o que corresponde aos chamados **```metadados```**.
 
+---
+A declaração de um único caracter que será armazenado no banco de dados **MySQL** exige qual tipo de dado para ser guardado corretamente um único caracter?   Complete a instrução parcial que seria responsável pela declaração de um atributo que armazenaria somente um caracter. 
+ 
+**Frase:** 	 	sexo **```CHAR```** (1) NOT NULL,
 
+---
+Observe a representação da tabela abaixo (PESSOA) e complete a instrução SQL que apagará todas as tuplas com idade que ainda não podem votar nas eleições brasileiras. No Brasil é possível votar a partir dos 16 anos completos.
+Não acrescente espaço adicionais (que não são necessários) em sua solução, pois sua instrução será considerada errada se tiver espaços em branco que não são necessários.
+
+"Tabela"
+
+**Frase:** 	 	DELETE FROM PESSOA **```WHERE idade```** < 16; 
+
+---
+Respeitando a correta sintaxe e semântica informe qual a expressão da linguagem SQL que está relacionada a **restrição de integridade de vazio**. Alguns pesquisadores também abordam esta integridade como sendo de obrigatoriedade do dado.
+ 
+Analise a frase a seguir e complete com a sintaxe exata e sem espaços excessivos para que sua resposta possa ser considerada correta. 
+
+**Frase:** 	 	Expressão que define a obrigatoriedade de um atributo em SQL: **```NOT NULL```**. 
+
+---
+Analise a instrução SQL abaixo e complete a frase com a opção mais correta (SIM ou NÃO) e sem espaços.
+ 
+CREATE TABLE PESSOA (
+ 
+ cpf BIGINT NOT NULL,
+ 
+ nome VARCHAR(100) NOT NULL,
+ 
+ sexo CHAR(1),
+ 
+ CONSTRAINT PESSOA_PK PRIMARY KEY (cpf)
+ 
+) ENGINE = InnoDB;
+
+**Frase:** 	 A instrução DML da Linguagem SQL acima possui somente dois atributos obrigatórios. Esta afirmação está correta? **```não```**. 
+
+---
+Analise o esquema TIPO e complete a instrução de inserção de um novo registro nesta tabela.
+ 
+Esta instrução SQL deverá ser única e não possuir espaços desnecessários, caso deseje que sua solução elaborada esteja correta.
+ 
+"Tabela"
+
+**Frase:** 	 INSERT INTO TIPO **```(descricao, id)```** VALUES ('Grande', 21); 
+
+---
+
+<br/>
+<br/>
+<br/>
