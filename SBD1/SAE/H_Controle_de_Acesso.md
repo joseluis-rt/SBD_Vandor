@@ -35,18 +35,34 @@ Além do controle de acesso aos dados armazenados no SGBD também é importante 
 
 ## Múltipla Escolha
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+No que consiste o processo de AUTENTICAÇÃO no **Controle de Acesso** efetuado pelos Sistemas Gerenciadores de Banco de Dados (SGBDs).
  
-- [x] **Lore ipsum**
-- [ ] Lore ipsum    
-- [ ] Lore ipsum     
-- [ ] Lore ipsum
+Selecione a opção correta. 
+ 
+- [x] **Identifica quem está acessando o SGBD.**     
+- [ ] Identifica o que o usuário fez quando estava usando o SGBD.     
+- [ ] Define o que o usuário pode fazer no SGBD     
+- [ ] Define quem poderá acessar o SGBD.     
+
 ---
+Existem algumas **Técnicas de Controle de Acesso** aos dados.
+ 
+Selecione qual delas possui uma política de controle de acesso determinada pelo proprietário (o dono) do recurso armazenado no SGBD?
+ 
+- [ ] Baseado em Papéis     
+- [x] **Discricionário**   
+- [ ] Obrigatório     
+- [ ] Gestão por Perfis  
 
+---
+Como existem algumas **Técnicas de Controle de Acesso** ao Sistema Gerenciador de Banco de Dados (SGBD), verifique qual a definição mais objetiva que corresponda a técnica denomiada, geralmente, de **OBRIGATÓRIA**. 
+ 
+- [ ] Ténica de política que define os direitos e permissões baseados no papel que determinado usuário desempenha na instituição que usa o SGBD.     
+- [ ] Técnica de política de controle de acesso determinada pelo proprietário do recurso do SGBD.     
+- [ ] Ténica de política que identifica perfis de usuários do SGBD e estabelece seus acessos e permissões.     
+- [x] **Técnica de política de acesso que é determinada pelo sistema e não pelo proprietário do recurso no SGBD.** 
 
-
-
-
+---
 
 <br/>
 <br/>
@@ -69,20 +85,35 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 - [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.** 
 
 ---
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
+- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+- [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.**
+- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+- [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.** 
 
+---
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
+- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+- [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.**
+- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+- [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.** 
+
+---
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+- [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.**
+- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+- [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.** 
+
+---
 
 <br/>
 <br/>
 <br/>
 <br/>
-
-
-
-
-
-
 
 
 
