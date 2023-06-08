@@ -164,15 +164,137 @@ Selecione qual das instruções relacionadas a seguir **não corresponde** a um 
 
 ## Escolha Múltipla
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Averigue o que está impedindo que a instrução SQL abaixo realize a troca de todos os valores de código menor que 100 para a data de nascimento de 11/11/2011.
+ 
+UPDATE PESSOA dataNascimento = '11-11-2011' WHERE codigo < 100;
 
-- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.**
-- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.** 
+"Tabela"
+
+Observe que o nome dos atributos estão corretos na Tabela PESSOA (codigo, nome, dataNascimento, idade), sendo representado na figura como um apelido dos atributos. 
+
+- [ ] A instrução UPDATE está sem a palavra FROM que identifica a tabela que será modificada.     
+- [ ] Um atributo do tipo de data (mm-dd-aaaa) não é do tipo caracter para ter as aspas simples.     
+- [x] **A instrução UPDATE está sem a palavra SET para indicar qual é a operação de modificação nas tuplas selecionadas.**     
+- [ ] Não se pode alterar as datas de nascimento senão as idades ficarão inconsistentes, então o Banco de Dados não permite. 
 
 ---
+Diante do estudo da Linguagem SQL selecione as opções que se podem afirmar sobre as suas características, ou seja, indique o que define o que esta linguagem é.
 
+- [x] **SQL é uma linguagem Não Procedural.**
+- [ ] SQL é uma linguagem Procedural.
+- [ ] SQL é uma linguagem que só manipula dados já armazenados no Banco de Dados.
+- [x] **SQL é uma linguagem Declarativa.**  
+
+---
+A linguagem SQL (Strutured Query Language) em seu nome parece tratar de uma linguagem de comunicação com os Sistemas Gerenciadores de Banco de Dados (SGBD) que só faz consulta.
+ 
+Selecione as opções das operações que a SQL pode realizar em um SGBD. 
+
+- [x] **Faz especificações de segurança no SGBD.**
+- [x] **Realiza consulta sobre os dados disponíveis no SGBD.**
+- [ ] Manipula dos dados armazenados, mas não consegue alterar as estruturas de dados após terem sido criadas.
+- [x] **Define estruturas coerentes para o armazenamento dos dados no SGBD.** 
+
+---
+Suponha que a tabela IMOVEIS possua grau de relação 10 (tem 10 atributos), sendo a chave primária o atributo denominado idImovel.
+ 
+Qual das instruções abaixo apagaria todos os dados dessa relação (tabela)?
+ 
+ A => DROP TABLE idImovel;
+ 
+ B => DELETE TABLE idMovel;
+ 
+ C => DROP TABLE IMOVEIS;
+ 
+ D => DELETE FROM IMOVEL;
+
+- [ ] Todas as opções indicadas apagarão todas as tuplas da tabela IMOVEIS.    
+- [ ] Somente a opção D apagará todas as tuplas da tabela IMOVEIS.     
+- [ ] As opções B e D apagarão todas as tuplas da tabela IMOVEIS.     
+- [x] **Somente a opção C apagará todas as tuplas da tabela IMOVEIS.** 
+
+---
+Selecione qual instrução apagará a tabela PESSOA.
+
+- [ ] DELETE FROM PESSOA;     
+- [ ] DELETE * FROM PESSOA;     
+- [x] **DROP TABLE PESSOA;**     
+- [ ] DROP * PESSOA; 
+
+---
+Selecione quais os tipos de dados que NÃO existem em um Banco de Dados Relacional. 
+
+- [x] **STRING**
+- [ ] DATE
+- [x] **DATA**
+- [ ] INTEGER
+
+---
+Observe as instruções DML e as associe com as operações que cada uma realiza.
+A= SELECT
+ 
+B= CREATE
+ 
+C= DELETE
+ 
+D= UPDATE
+ 
+Selecione a opção, ou opções, que estiverem corretas. 
+
+- [ ] Item B corresponde ao CADASTRO de novos dados, C a APAGAR dados já armazenados e D a ALTERAR estes dados.
+- [ ] Item A corresponde a CONSULTA, B a INCLUSÃO de novos dados e C a EXCLUSÃO.
+- [x] **Item C corresponde a APAGAR dados já armazenados, D a MODIFICAÇÃO de dados já armazenados e A a PESQUISA sobre estes dados.**
+- [ ] Item A corresponde a PESQUISA sobre os dados já armazenados, C a EXCLUIR dados armazenados e B a CRIAÇÃO deles.  
+
+---
+O que deveria ser alterado para o atributo sexo sempre possuir um valor quando uma tupla for inserida? Analise todas as opções.
+ 
+CREATE TABLE PESSOA (
+ 
+ cpf BIGINT NOT NULL,
+ 
+ nome VARCHAR(100) NOT NULL,
+ 
+ sexo CHAR(1),
+ 
+ CONSTRAINT PESSOA_PK PRIMARY KEY (cpf)
+ 
+) ENGINE = InnoDB;
+
+- [ ] Incluir a expressão NOT NULL depois da vírgula do atributo sexo.
+- [x] **Incluir a expressão NOT NULL depois da definição do tipo de dado do sexo e antes de sua vírgula.**
+- [ ] Incluir a expressão DEFAULT após a vírgula do atributo sexo indicando um valor padrão.
+- [x] **Incluir a expressão DEFAULT após o tipo de dado e antes da vírgula do sexo com um valor padrão.**  
+
+---
+Qual ou quais expressões são obrigatórias na instrução SELECT em SQL?
+
+- [ ] AS     
+- [x] **FROM**     
+- [ ] WHERE     
+- [x] **SELECT**
+
+---
+Observe a instrução SQL a seguir e selecione o(s) erro(s) existente(s), caso exista(m) no Banco de Dados (BD) referente a sintaxe ou a lógica do projeto.
+ 
+CREATE TABLE prestador (
+ 
+ codigo number not null,
+ 
+ nome varchar(40) not null,
+ 
+ cpf number(11) null,
+ 
+ salario number(7.2) not null,
+ 
+CONSTRAINT prestador_pk PRIMARY KEY(codigo));
+
+- [x] **Os atributos obrigatórios deveriam estar agrupados para depois serem definidos os atributos opcionais, otimizando o armazenamento no BD.**
+- [ ] O cpf possui um erro por não ser obrigatório.
+- [ ] Existe uma vírgula que não seria necessária no último atributo da tabela que se está tentando criar.
+- [ ] O tipo number existe em alguns BDs, exemplo no Oracle, mas no primeiro atributo está errado pela falta do número do tamanho
+
+---
 <br/>
 <br/>
 <br/>
