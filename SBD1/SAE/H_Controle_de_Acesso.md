@@ -89,9 +89,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 ## Lacuna
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Qual processo relevante para o Controle de Acesso aos dados em um banco de dados determina o que um usuário autenticado pode fazer no Sistema Gerenciador de Banco de Dados (SGBD)?
  
-**Frase:** 	Lorem **```ipsum```** dolor sit amet, consectetur adipiscing elit.
+Complete a frase usando somente o nome desse processo no singular e respeitando a sintaxe exata da Língua Portuguesa para que sua resposta possa ser considerada certa, se o nome desse importante processo estiver escrito corretamente. 
+ 
+**Frase:** 	O processo de **```autorização```** determina o que um usuário pode acessar e fazer no SGBD. 
+
+---
+Estudando o controle de acesso realizado por Sistemas Gerenciadores de Banco de Dados Relacionais (SGBDR) é possível conhecer a instrução SQL que cria um novo usuário que terá acesso ao SGBDR.
+ 
+Complete a frase a seguir indicando como esta instrução, que cria um novo usuário no SGBDR, é  classificada em SQL.  
+
+**Frase:** 	A instrução da Linguagem SQL que cria um novo usuário do SGBDR é classificada como:  **```DDL```**. (use uma sigla para sua resposta correta caber na lacuna) 
 
 ---
 
