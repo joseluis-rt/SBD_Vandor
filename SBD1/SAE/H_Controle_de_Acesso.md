@@ -77,36 +77,22 @@ Como existem algumas **Técnicas de Controle de Acesso** ao Sistema Gerenciador 
 
 ## Escolha Múltipla
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+O Controle de Acesso para segurança de dados está relacionado a permitir ou não o acesso aos dados e informações armazenadas em um Sistema Gerenciador de Banco de Dados (SGBD).
+ 
+Selecione quais são os processos relacionados, geralmente, ao fornecimento desse tipo de controle de acesso. 
 
-- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.**
-- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.** 
-
----
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.**
-- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.** 
+- [x] **Auditoria**
+- [ ] Biometria
+- [ ] Restrições nas consultas (cláusula WHERE)
+- [x] **Autenticação** 
 
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Qual a incumbência da opção **IDENTIFIED BY** na instrução **SQL** que cria um novo usuário no Sistema Gerenciador de Banco de Dados (SGBD)? 
 
-- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.**
-- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.** 
-
----
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.**
-- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.** 
+- [x] **Fornecer a senha para o usuário do SGBD.**
+- [ ] Fornecer uma conexão (nome do usuário) única para identificação do usuário no SGBD.
+- [ ] Fornecer qual o perfil que o novo usuário estará associado no SGBD.
+- [ ] Fornecer um ID (identificador) único para que o usuário possa ser acompanhado em suas ações no SGBD.  
 
 ---
 
