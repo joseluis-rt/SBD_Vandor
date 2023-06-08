@@ -73,17 +73,82 @@ A Linguagem SQL de Banco de Dados é procedural, permitindo a operação direta 
 
 ## Múltipla Escolha
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
- 
-- [x] **Lore ipsum**
-- [ ] Lore ipsum    
-- [ ] Lore ipsum     
-- [ ] Lore ipsum
+Veja os esquemas abaixo e selecione o SQL que mostrará todas as matrículas de alunos que estão fazendo o curso de código igual a 2, além de mostrar o nome desse curso.  
+
+"Diagrama de Esquemas"
+
+- [ ] SELECT * FROM ESTUDANTE e, CURSO c WHERE e.Codigo = c.Codigo AND c.Codigo = 2;     
+- [x] **SELECT e.Matrícula, c.Curso FROM ESTUDANTE e, CURSO c WHERE e.Codigo = c.Codigo AND c.Codigo = 2;**     
+- [ ] SELECT Matrícula, Codigo FROM ESTUDANTE WHERE Codigo = 2;     
+- [ ] SELECT * FROM ESTUDANTE WHERE Codigo = 2;  
+
 ---
+Observe a figura e selecione qual instrução está correta para inserir uma nova tupla na tabela CURSO.  
 
+"Esquemas ."
+ 
+- [ ] INSERT INTO CURSO (21, 'Costura','M');     
+- [x] **INSERT INTO CURSO (Codigo, Período, Curso) VALUES (21, 'M', 'Costura');**   
+- [ ] INSERT FROM CURSO (21, 'Costura','M');     
+- [ ] INSERT FROM CURSO (Codigo, Período, Curso) VALUES (21, 'M', 'Costura');
 
+---
+Escolha entre as opções de resposta o que corresponde ao acrônimo DDL em Banco de Dados Relacionais. 
+ 
+- [x] **Data Definition Language**     
+- [ ] Date Declaration Language     
+- [ ] Data Distribution Language     
+- [ ] Declaration Data Language
 
+---
+Selecione a opção correta que indica o que o acrônimo SQL significa em Banco de Dados.
+ 
+- [ ] Structure Quote Learn
+- [x] **Structured Query Language**
+- [ ] System Query Language
+- [ ] System Query Learning 
 
+---
+CREATE TABLE NOMES  (
+ 
+  primeiroNome varchar(25)  NOT NULL,
+ 
+  ultimoNome    varchar(25)
+ 
+);
+ 
+O comando SQL acima tem qual GRAU DA RELAÇÃO? 
+
+- [ ] Grau 25     
+- [ ] Grau 1     
+- [x] **Grau 2**     
+- [ ] Não tem grau.
+
+---
+Qual das instruções a seguir **NÃO** pode ser usada diretamente sobre as relações (ou tabelas) no Sistema Gerenciador de Banco de Dados (SGBD) **MySQL**?
+
+- [ ] SHOW     
+- [x] **USE**    
+- [ ] CREATE     
+- [ ] DROP 
+
+---
+Selecione a instrução ou expressão SQL que NÃO seria relacionada a DDL. 
+
+- [ ] CREATE     
+- [x] **SELECT**    
+- [ ] CONSTRAINT     
+- [ ] REFERENCE 
+
+---
+Selecione qual das instruções relacionadas a seguir **não corresponde** a um comando DDL na Linguagem SQL?
+
+- [x] **SELECT**     
+- [ ] ALTER     
+- [ ] DROP     
+- [ ] CREATE 
+
+---
 
 
 <br/>
