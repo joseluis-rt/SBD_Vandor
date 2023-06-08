@@ -99,10 +99,6 @@ Observe atentamente a expressão a seguir e indique o que está sendo informado 
 
 ---
 
-
-
-
-
 <br/>
 <br/>
 <br/>
@@ -116,17 +112,56 @@ Observe atentamente a expressão a seguir e indique o que está sendo informado 
 
 ## Escolha Múltipla
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Observe as afirmações a seguir e selecione somente as que indicam uma operação de SELEÇÃO sobre uma base de dados.
+  
 
-- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.**
-- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.** 
+- [x] **Quando aplicada resulta em uma relação contendo tuplas com os mesmos atributos da relação que satisfazem a uma determinada condição definida.**     
+- [x] **A letra grega que indica sua realização é o sigma.**     
+- [ ] A letra grega que indica sua realização é o teta.     
+- [ ] É um operador unário, sendo executado sobre apenas uma relação sobre todas as suas tuplas de uma vez.     
+  
 
 ---
+Indique qual ou quais operações obterão os resultados indicados pela afirmação a seguir:
+ 
+**"O resultado da operação sobre 2 relações que apresentará o conjunto de todas as tuplas que aparecem ao mesmo tempo nas duas relações envolvidas."**
+ 
+Selecione a resposta ou respostas corretas. 
 
+- [x] **Interseção**
+- [ ] União
+- [ ] Diferença
+- [ ] Produto Cartesiano 
 
+---
+Indique qual das operações abaixo produzirão um mesmo resultado final sobre as supostas relações R e S, tendo como resultado o envolvimento das mesmas tuplas selecionadas. 
 
+- [x] **R união S terá o mesmo resultado que S união R**
+- [ ] R - S terá o mesmo resultado que S - R
+- [x] **S interseção R terá o mesmo resultado que R interseção S**
+- [x] **R x S terá o mesmo resultado que S x R**
+
+---
+Observe as expressões genéricas a seguir e identifique qual delas corresponde as operações relacionais, identificando cada uma delas por sua cor ou letra indicativa da referida expressão (A, B, C).
+
+"Expressões Genéricas"
+
+- [ ] A = Seleção, B = Junção e C = Projeção
+- [ ] A = Projeção, B = Seleção e C = Junção
+- [x] **A = Projeção, B = Junção e C = Seleção**
+- [ ] A = Junção, B = Projeção e C = Seleção  
+
+---
+Veja qual a cardinalidade mais adequada a ser usada nestas 3 opções de conjuntos para estabelecer um relacionamento adequado a estas representações e selecione somente a opção, ou opções, que tiverem completamente corretas.
+ 
+"Conjuntos"
+
+- [ ] Opção 1 com cardinalidade 1:n e Opção 3 com cardinalidade 1:n.
+- [ ] Opção 1 com cardinalidade 1:1 e Opção 2 com cardinalidade n:1.
+- [ ] Opção 1 com cardinalidade 1:1 e as Opções 2 e 3 com a mesma cardinalidade, sendo ela 1:n.
+- [x] **Opção 2 com cardinalidade n:m e a Opção 3 com cardinalidade 1:n.**  
+
+---
 
 <br/>
 <br/>
