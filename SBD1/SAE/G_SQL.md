@@ -324,11 +324,6 @@ Atente a grafia exata e correta destas expressões na Língua Portuguesa e ofici
  
 5=RECUPERAÇÃO 
  
-**Frase:** 	Lorem **```ipsum```** dolor sit amet, consectetur adipiscing elit.
-
----
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
- 
 **Frase:** 	As instruções SQL que correspondem a DDL desta linguagem de Banco de Dados podem ser classificadas por instruções de **```DEFINIÇÃO```**.
 
 ---
