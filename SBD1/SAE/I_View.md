@@ -38,33 +38,26 @@ Não posso criar uma visão em SQL (view) com a cláusula GROUP BY.
 
 ## Múltipla Escolha
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+O usuário que é **proprietário** (owner) da view precisa de qual tipo de **privilégio** para trabalhar com ela na operação e manipulação dos dados pertinentes ao acesso que é possível uma view realizar?
  
-- [x] **Lore ipsum**
-- [ ] Lore ipsum    
-- [ ] Lore ipsum     
-- [ ] Lore ipsum
+- [ ] Todos os privilégios sobre a view somente.
+- [ ] Só o privilégio de execução de consulta (SELECT) sobre as tabelas base para execução de qualquer operação possível por uma view.    
+- [x] **Privilégios nas tabelas base que sejam coerentes as operações desejadas que a view execute.**  
+- [ ] Não são necessários nenhum privilégio se o usuário é o proprietário da view. 
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+No que corresponde uma **Tabela Base** para uma **visão**? 
  
-- [x] **Lore ipsum**
-- [ ] Lore ipsum    
-- [ ] Lore ipsum     
-- [ ] Lore ipsum
+- [ ] Base de armazenamento dos metadados relacionados a visão que não guarda dados.
+- [x] **Tabela onde os dados apresentados pela visão são armazenados.**
+- [ ] Tabela de metadado que guarda a instrução geradora da visão no SGBD.
+- [ ] Base de armazenamento do SELECT gerador da visão (metadado relevante na criação da visão no SGBD).
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+A instrução que cria uma VIEW em SQL é classificada como?
  
-- [x] **Lore ipsum**
-- [ ] Lore ipsum    
-- [ ] Lore ipsum     
-- [ ] Lore ipsum
----
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
- 
-- [x] **Lore ipsum**
-- [ ] Lore ipsum    
-- [ ] Lore ipsum     
-- [ ] Lore ipsum
+- [x] **DDL - Data Definition Languange**
+- [ ] DML - Data Manipulation Languange
+- [ ] DCL - Data Control Languange
+- [ ] DQL - Data Query Languange 
 ---
 
 <br/>
