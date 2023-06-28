@@ -73,17 +73,42 @@ A instrução que cria uma VIEW em SQL é classificada como?
 
 ## Escolha Múltipla
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+No que consiste a MATERIALIZAÇÃO que alguns Sistemas Gerenciadores de Banco de Dados (SGBD) realizam sobre as VISÕES (VIEW) implementadas.
 
-- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.**
-- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.** 
+- [x] **São visões armazenadas como tabelas no SGBD.**
+- [ ] Em visões que possuem acesso a uma única tabela em sua criação.
+- [ ] São visões que não armazenam dados como tabelas, mas acessam os dados nas tabelas base.
+- [ ] Em visões que possuem
 
 ---
+Os **privilégios** para acesso e uso de uma **visão** (view da Linguagem SQL) são importantes para que o funcionamento da visão possa atender as necessidades de seus usuários.
+ 
+  Para a concessão do privilégio de acesso e uso coerente da view é necessário que:
 
+- [ ] Outros usuários só precisam receber privilégios sobre a view, sem a necessidade de privilégios sobre as tabelas base.
+- [x] **O proprietário da view seja o dono das tabelas base.**
+- [x] **Outros usuários precisam de privilégios coerentes sobre a view e suas tabelas base, conforme as suas necessidades.**
+- [x] **Que o proprietário da view tenha recebido os privilégios das tabelas base com a opção Grant Option.**
 
+---
+Suponha a instrução UPDATE abaixo sendo executada sobre a visão V_ESCOLA.
+ 
+O que NÃO impediria que esta instrução fosse executada com êxito sobre a visão indicada?
+ 
+Selecione a opção ou opções que NÃO impediriam este UPDATE na VIEW.
+ 
+  UPDATE V_ESCOLA
+ 
+   SET sala = 'S-21'
+ 
+   WHERE disciplina  = 'SBD1';
+   
+- [ ] O agrupamento (GROUP BY) na criação da visão.
+- [ ] A existência da cláusula ORDER BY na criação dessa visão.
+- [x] **A existência de qualquer cláusula WHERE na criação da visão.**
+- [ ] O operador DISTINCT na criação da visão.
 
+---
 
 <br/>
 <br/>
