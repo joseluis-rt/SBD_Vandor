@@ -32,18 +32,32 @@ Os Sistemas Gerenciadores de Banco de Dados (SGBD) NÃO admitem transações at�
 
 ## Múltipla Escolha
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+A expressão DEADLOCK é significativa na área de Banco de Dados.
  
-- [x] **Lore ipsum**
-- [ ] Lore ipsum    
-- [ ] Lore ipsum     
-- [ ] Lore ipsum
+Assim, selecione a afirmação mais correta sobre o que significaria esta expressão para área de Banco de Dados.
+ 
+- [x] **Os deadlocks são problemas inerentes ao bloqueio que garante a consistência do Banco de Dados.**
+- [ ] Consiste na efetivação de alguma operação que é executada e identifica a inconsistência existente no Banco de Dados.
+- [ ] Um deadlock indica o final do timestamp que uma transação possui para ser executada e será desfeita (abortada).
+- [ ] A operação DDL realizada em um Banco de Dados que é incoerente com as estruturas (tabelas) já existentes neste Banco. 
+
 ---
+Selecione qual opção descreve a propriedade de um Banco de Dados Relacional representado na ACID pela letra C.
+ 
+- [ ] Coerência
+- [ ] Concorrência
+- [x] **Consistência**
+- [ ] Concordância 
 
+---
+Observe o diagrama a seguir e indique a principal característica comum nas esferas Efetivada e Abortada  em uma transação de Banco de Dados.
+ 
+- [x] **As duas indicam o encerramento da execução da transação em Banco de Dados.**
+- [ ] As duas sinalizam um problema no processamento do Banco de Dados.
+- [ ] Ambas efetivarão com sucesso as operações de sua respectiva transação.
+- [ ] Sinalizam a impossibilidade de conclusão das operações envolvidas na transação em Banco de Dados. 
 
-
-
-
+---
 
 <br/>
 <br/>
