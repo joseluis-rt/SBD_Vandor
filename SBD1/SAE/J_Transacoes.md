@@ -67,31 +67,32 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 ---
 
-
-
-
 <br/>
 <br/>
 <br/>
 <br/>
-
-
-
-
-
-
 
 
 
 
 ## Lacuna
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Complete a afirmação a seguir sem usar espaços em branco e mantendo a coerência da afirmação sobre o processamento em Banco de Dados Relacional. 
  
-**Frase:** 	Lorem **```ipsum```** dolor sit amet, consectetur adipiscing elit.
+**Frase:** 	As operações que formam uma única unidade lógica de trabalho são chamadas de **```transações```** em Banco de Dados.
 
 ---
+O diagrama a seguir procura representar o que nas transações em Banco de Dados?
+ 
+Complete a frase a seguir sem usar espaços em branco ou letras acentuadas.  
+ 
+ 
+**Frase:** 	As esferas no diagrama representam os **```estados```** das transações em Banco de Dados.
 
-
+---
+<br/>
+<br/>
+<br/>
+<br/>
 
 
