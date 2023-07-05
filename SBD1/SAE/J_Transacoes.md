@@ -72,12 +72,44 @@ Observe o diagrama a seguir e indique a principal característica comum nas esfe
 
 ## Escolha Múltipla
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+O **processamento concorrente** para banco de dados envolve diversas complicações, podendo comprometer a consistência da base de dados. No entanto, as tecnologias de banco de dados insistem em usá-las. Por que?   Selecione a opção ou as opções que motivam a tecnologia de banco de dados empregar concorrência em seu processamento. 
 
-- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.**
-- [ ] Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- [x] **Lorem ipsum dolor sit amet, consectetur adipiscing elit.** 
+- [x] **Diminui o tempo médio de resposta (retorno ao usuário).**
+- [ ] Aumenta a serialização do Banco de Dados.
+- [x] **Acessar partes diferentes do Banco de Dados ao mesmo tempo.**
+- [x] **Reduz ociosidade do processador (CPU).** 
+
+---
+Durante nosso estudo sobre Transações foram utilizadas algumas expressões em português que indicam o estado da transação. Selecione quais das expressões são coerentes com estes estados, de acordo com o que estudamos nesta disciplina.
+
+- [x] **Falha**
+- [x] **Efetivada**
+- [ ] Normalizada
+- [ ] Consistente 
+
+---
+Diante das opções de problemas na execução de uma Transação, escreva qual expressão indicaria que foi detectada uma dificuldade que não permitirá que a mesma seja efetivada. 
+
+- [ ] Efetivada Parcialmente
+- [ ] Abordata
+- [ ] Ativa
+- [x] **Falha** 
+
+---
+Selecione a opção ou opções corretas que são descritivas da sigla ACID em banco de dados.
+
+- [x] **Atomicidade**
+- [ ] Concorrência
+- [ ] Integração
+- [x] **Durabilidade** 
+
+---
+Indique qual ou quais são os estados da Transação que são conclusívos, ou seja, que encerram a transação.
+
+- [ ] Falha
+- [ ] Ativa
+- [x] **Abortada**
+- [x] **Efetivada**  
 
 ---
 
