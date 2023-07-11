@@ -3,7 +3,7 @@
 ---
 A operação que reinicia uma transação que foi abortada consiste na criação de uma NOVA TRANSAÇÃO para ser processada.
 
-**```Resposta: FALSO```**
+**```Resposta: VERDADEIRO```**
 
 
 
