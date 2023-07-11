@@ -1,5 +1,5 @@
 # Transações
-##V ou F
+## V ou F
 ---
 A operação que reinicia uma transação que foi abortada consiste na criação de uma NOVA TRANSAÇÃO para ser processada.
 
