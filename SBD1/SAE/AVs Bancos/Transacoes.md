@@ -24,9 +24,9 @@ II=O ROLLBACK encerra a execução da transação, descartando tudo que foi feit
  
 III=Uma transação ATÔMICA deve executar com sucesso todas suas operações ou, em caso de falha, desfazer apenas as operações executadas que causaram a falha.
 
-- [x] Apenas I e II.
+- [ ] Apenas I e II.
 - [ ] Apenas I.
-- [ ] Apenas II.
+- [x] Apenas II.
 - [ ] Apenas II e III.
       
 
