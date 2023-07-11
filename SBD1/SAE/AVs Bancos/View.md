@@ -65,7 +65,7 @@ DELETE FROM V_AGENDA WHERE paciente = 3215;
 Selecione a opção, ou opções, que indicam as principais utilidades da implmentação da VIEW (visão em SQL) em um Sistema Gerenciado de Banco de Dados (SGBD) Relacional.
 
  
-- [ ]	A performance do SGBD que usará uma consulta previamente elaborada e otimizada, não necessitando do processo de otimização quando ela for acionada.
+- [x]	A performance do SGBD que usará uma consulta previamente elaborada e otimizada, não necessitando do processo de otimização quando ela for acionada.
 - [x] **Aumenta a segurança por propiciar uma visão limitada e controlada dos dados que podem ser obtidos de uma base de dados por seus usuários.**
 - [ ] Recurso do SGBD que pode apresentar qualquer dado armazenado na base de Dados, mas impede a sua manutenção (não se altera ou apaga tuplas pela VIEW).
 - [ ] Fornece uma visão sempre segura dos dados armazenados em uma tabela, preservando sua chave primária (não mostra a chave primária - PK).
