@@ -67,10 +67,20 @@ mysql -u master -p db001 < /system/db001.sql
 - [x] Efetua somente uma conexão com o SGBD MySQL do usuário master sobre uma base de dados.
 - [x] Faz a restauração do backup em uma base de dados.
 
-
 ---
+Considere as seguintes afirmações sobre RECUPERAÇÃO após falha no Sistema Gerenciador de Bancos de Dados Relacionais (SGBDR).
+
+A= Uma parte integrante de um SGBDR é o esquema de recuperação que é responsável pela restauração do banco de dados para um estado consistente que havia antes da ocorrência da falha;
+ 
+B= Alguns tipos de falhas podem ocorrer no SGBDR, cada um deles exigindo um tratamento mais específico;
+ 
+C= Para preservar a consistência do SGBDR, exige-se que cada transação seja ATÔMICA.
 
 
+- [ ] Somente a afirmação B está correta.
+- [ ] Todas as afirmações estão corretas.
+- [x] Apenas as afirmações A e B estão corretas.
+- [ ] Estão corretas somente as afirmações B e C.
 
 <br/>
 <br/>
