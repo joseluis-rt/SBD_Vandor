@@ -40,12 +40,21 @@ Selecione a afirmação INCORRETA, no que se refere as formas citadas neste enun
 - [ ] REDO, apesar de ter uma maneira de recuperação não é capaz de proteger contra a perda de integridade de um banco de dados.
 - [ ] UNDO protege contra a inconsistência de dados guardados num banco de dados e acessados por múltiplos usuários ao mesmo tempo.
 
-<br/>
-<br/>
-<br/>
-<br/>
+---
 
+Após o estudo inicial sobre alguns processos de recuperação dos Sistemas Gerenciadores de Banco de Dados (SGBDs) foi possível refletir sobre a gerência de buffer efetuada, em que o processo mais conhecido como FORÇADO estaria mais relacionado com qual afirmação?
+ 
+Selecione a afirmação mais coerente com as características do FORÇADO (FORCE).
 
+ - [x] Os blocos de dados atualizados não são gravados no disco imediatamente quando a transação alcança o commit.
+ - [ ] Um bloco na cache (recurso primário de armazenamento) usado por uma transação pode ser gravado antes do commit da transação.
+ - [ ] Os blocos de dados atualizados são gravados no disco imediatamente quando a transação alcança o ponto de efetivação (commit).
+ - [ ] Um bloco na cache utilizado por uma transação não pode ser gravado antes do commit da transação.
+
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## Escolha Múltipla
 ---
