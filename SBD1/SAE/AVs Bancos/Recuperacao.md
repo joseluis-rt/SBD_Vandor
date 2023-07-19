@@ -5,15 +5,18 @@ Observando as escalas que representam transações é possível analisar muitas 
  
 Uma escala recuperável é aquela na qual uma transação pode restabelecer os seus valores, caso uma falha, por qualquer razão, aconteça nas transações que a antecedem e que ela seja dependente.
 
-**```Resposta: -----```**
+**```Resposta: VERDADEIRO```**
 
+---
 
+O utilitário ou ferramenta do MySQL denominada mysqldump é usada para "despejar" um banco de dados MySQL, ou uma ou mais de suas bases de dados, em backup(s) ou transferência(s) para outro servidor MySQL.
+
+**```Resposta: VERDADEIRO```**
 
 <br/>
 <br/>
 <br/>
 <br/>
-
 
 
 ## Múltipla Escolha
@@ -22,12 +25,20 @@ Analisando a figura a seguir, que representa um conjunto de transações sendo e
  
 Qual seria o procedimento de Recuperação a Falhas que o SGBDR executaria entre as opções abaixo para a realidade da T2 na situação indicada nesta figura?
 
-- [ ] Realizaria o UNDO.
+- [X] Realizaria o UNDO.
 - [ ] Realizaria o REDO.
 - [ ] Executaria o ROLLBACK.
 - [ ] Não executaria nenhuma ação de recuperação para T2.
 
+---
+REDO e UNDO são duas maneiras de fazer recuperações de informações ou estado de um banco de dados.
 
+Selecione a afirmação INCORRETA, no que se refere as formas citadas neste enunciado (REDO e UNDO).  
+
+- [ ] REDO são guardados em arquivos de registro (log files), enquanto UNDO são guardados em ?tablespace?.
+- [x] UNDO é capaz de guardar mudanças não aplicadas (committed), enquanto o REDO só é capaz de reaplicar mudanças aplicadas anteriormente.
+- [ ] REDO, apesar de ter uma maneira de recuperação não é capaz de proteger contra a perda de integridade de um banco de dados.
+- [ ] UNDO protege contra a inconsistência de dados guardados num banco de dados e acessados por múltiplos usuários ao mesmo tempo.
 
 <br/>
 <br/>
@@ -44,8 +55,8 @@ mysql -u master -p db001 < /system/db001.sql
  
 - [ ] Inicia o serviço do MySQL (coloca o SGBD no ar), estabelecendo uma conexão como usuário master.
 - [ ] Realiza o backup de uma base de dados.
-- [ ] Efetua somente uma conexão com o SGBD MySQL do usuário master sobre uma base de dados.
-- [ ] Faz a restauração do backup em uma base de dados.
+- [x] Efetua somente uma conexão com o SGBD MySQL do usuário master sobre uma base de dados.
+- [x] Faz a restauração do backup em uma base de dados.
 
 
 ---
@@ -68,4 +79,20 @@ Uma DICA para completar está frase é que a palavra correta possui menos que 10
 
 Modificações ________ são aquelas nas quais as escritas são feitas no banco somente quando uma operação é parcialmente efetivada.
 
-**```Resposta:  ------```**
+**```Resposta:  atômicas```**
+
+---
+
+Reflita sobre as características abaixo e complete a frase corretamente, respeitando todas as regras da Língua Portuguesa e sem espaços.
+
+1. Suspender temporariamente a execução de transações;
+ 
+2. Gravar à força todos os buffers de memória que tenham sido modificados para o disco;
+ 
+3. Gravar registro(s) no LOG;
+ 
+4. Retoma as transações em execução.
+
+A operação ______ escreve todas as páginas atualizadas do banco de dados corrente no disco (recurso secundário).
+
+**```Resposta:  commit```**
