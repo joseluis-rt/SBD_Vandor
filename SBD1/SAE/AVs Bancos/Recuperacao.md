@@ -105,3 +105,14 @@ Reflita sobre as características abaixo e complete a frase corretamente, respei
 A operação ______ escreve todas as páginas atualizadas do banco de dados corrente no disco (recurso secundário).
 
 **```Resposta:  commit```**
+
+---
+
+Suponha a FALHA no Sistema Gerenciador de Banco de Dados (SGBD) que NÃO danifique físicamente os recursos de armazenamento secundários deste SGBD, mas que afetem todas as suas transações em execução, comprometendo a memória do servidor que as estava processando.
+ 
+Reflita sobre esta situação e complete a afirmação a seguir, respeitando todas as regras de sintaxe e semântica (concordância) da Língua Portuguesa, se deseja que sua resposta possa ser considerada correta, não usando nenhum espaço em sua resposta.
+
+
+Esta situação caracteriza um tipo de falha no SGBD denominada falha de ______ .
+
+**```Resposta:  memoria```**
