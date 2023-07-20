@@ -123,7 +123,7 @@ Reflita sobre esta situação e complete a afirmação a seguir, respeitando tod
 
 Esta situação caracteriza um tipo de falha no SGBD denominada falha de ______ .
 
-**```Resposta:  memoria```**
+**```Resposta:  sistema```**
 
 <br/>
 <br/>
