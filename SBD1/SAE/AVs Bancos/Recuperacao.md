@@ -25,10 +25,10 @@ Analisando a figura a seguir, que representa um conjunto de transações sendo e
  
 Qual seria o procedimento de Recuperação a Falhas que o SGBDR executaria entre as opções abaixo para a realidade da T2 na situação indicada nesta figura?
 
-- [X] Realizaria o UNDO.
+- [ ] Realizaria o UNDO.
 - [ ] Realizaria o REDO.
 - [ ] Executaria o ROLLBACK.
-- [ ] Não executaria nenhuma ação de recuperação para T2.
+- [x] Não executaria nenhuma ação de recuperação para T2.
 
 ---
 REDO e UNDO são duas maneiras de fazer recuperações de informações ou estado de um banco de dados.
