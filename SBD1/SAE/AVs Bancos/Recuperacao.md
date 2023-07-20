@@ -87,8 +87,6 @@ C= Para preservar a consistência do SGBDR, exige-se que cada transação seja A
 <br/>
 <br/>
 
-
-
 ## Lacuna
 ---
 No contexto da Recuperação de Falhas baseada em LOG em um banco de dados, complete a frase abaixo corretamente.
@@ -126,3 +124,18 @@ Reflita sobre esta situação e complete a afirmação a seguir, respeitando tod
 Esta situação caracteriza um tipo de falha no SGBD denominada falha de ______ .
 
 **```Resposta:  memoria```**
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+## Discursiva
+---
+Alguns termos em inglês são mais significativos para especificar quando uma página do Sistema Gerenciador de Banco de Dados (SGBD) pode ser gravada em disco a partir da memória CACHE.
+ 
+De maneira bem objetiva, esclareça o que existe de relevante na técnica que é identificada pela expressão FORCE, sendo esclarecido o que acontece nessa técnica com as páginas atualizadas por uma transação e seu processo especiífico de gravação em disco rígido.
+
+**```Resposta:  Na técnica FORCE, as páginas atualizadas por uma transação são gravadas imediatamente no disco a partir da memória CACHE, assim que a transação é confirmada (commit). Isso garante a durabilidade dos dados e evita perdas em caso de falhas no sistema.```**
+
+
