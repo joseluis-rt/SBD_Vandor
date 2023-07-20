@@ -64,7 +64,7 @@ mysql -u master -p db001 < /system/db001.sql
  
 - [ ] Inicia o serviço do MySQL (coloca o SGBD no ar), estabelecendo uma conexão como usuário master.
 - [ ] Realiza o backup de uma base de dados.
-- [x] Efetua somente uma conexão com o SGBD MySQL do usuário master sobre uma base de dados.
+- [ ] Efetua somente uma conexão com o SGBD MySQL do usuário master sobre uma base de dados.
 - [x] Faz a restauração do backup em uma base de dados.
 
 ---
