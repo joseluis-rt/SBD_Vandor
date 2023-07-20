@@ -46,9 +46,9 @@ Após o estudo inicial sobre alguns processos de recuperação dos Sistemas Gere
  
 Selecione a afirmação mais coerente com as características do FORÇADO (FORCE).
 
- - [x] Os blocos de dados atualizados não são gravados no disco imediatamente quando a transação alcança o commit.
+ - [ ] Os blocos de dados atualizados não são gravados no disco imediatamente quando a transação alcança o commit.
  - [ ] Um bloco na cache (recurso primário de armazenamento) usado por uma transação pode ser gravado antes do commit da transação.
- - [ ] Os blocos de dados atualizados são gravados no disco imediatamente quando a transação alcança o ponto de efetivação (commit).
+ - [x] Os blocos de dados atualizados são gravados no disco imediatamente quando a transação alcança o ponto de efetivação (commit).
  - [ ] Um bloco na cache utilizado por uma transação não pode ser gravado antes do commit da transação.
 
 <br/>
