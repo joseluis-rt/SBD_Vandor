@@ -112,7 +112,7 @@ Reflita sobre as características abaixo e complete a frase corretamente, respei
 
 A operação ______ escreve todas as páginas atualizadas do banco de dados corrente no disco (recurso secundário).
 
-**```Resposta:  commit```**
+**```Resposta:  checkpoint```**
 
 ---
 
