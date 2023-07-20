@@ -79,8 +79,8 @@ C= Para preservar a consistência do SGBDR, exige-se que cada transação seja A
 
 - [ ] Somente a afirmação B está correta.
 - [ ] Todas as afirmações estão corretas.
-- [x] Apenas as afirmações A e B estão corretas.
-- [ ] Estão corretas somente as afirmações B e C.
+- [ ] Apenas as afirmações A e B estão corretas.
+- [x] Estão corretas somente as afirmações B e C.
 
 <br/>
 <br/>
