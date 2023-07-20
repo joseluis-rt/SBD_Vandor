@@ -96,7 +96,7 @@ Uma DICA para completar está frase é que a palavra correta possui menos que 10
 
 Modificações ________ são aquelas nas quais as escritas são feitas no banco somente quando uma operação é parcialmente efetivada.
 
-**```Resposta:  atômicas```**
+**```Resposta:  adiadas```**
 
 ---
 
