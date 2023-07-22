@@ -36,8 +36,8 @@ REDO e UNDO são duas maneiras de fazer recuperações de informações ou estad
 Selecione a afirmação INCORRETA, no que se refere as formas citadas neste enunciado (REDO e UNDO).  
 
 - [ ] REDO são guardados em arquivos de registro (log files), enquanto UNDO são guardados em ?tablespace?.
-- [x] UNDO é capaz de guardar mudanças não aplicadas (committed), enquanto o REDO só é capaz de reaplicar mudanças aplicadas anteriormente.
-- [ ] REDO, apesar de ter uma maneira de recuperação não é capaz de proteger contra a perda de integridade de um banco de dados.
+- [ ] UNDO é capaz de guardar mudanças não aplicadas (committed), enquanto o REDO só é capaz de reaplicar mudanças aplicadas anteriormente.
+- [x] REDO, apesar de ter uma maneira de recuperação não é capaz de proteger contra a perda de integridade de um banco de dados.
 - [ ] UNDO protege contra a inconsistência de dados guardados num banco de dados e acessados por múltiplos usuários ao mesmo tempo.
 
 ---
