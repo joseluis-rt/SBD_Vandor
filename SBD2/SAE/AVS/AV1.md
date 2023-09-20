@@ -197,7 +197,8 @@ Sua resposta deve respeitar as regras de sintaxe corretas na Língua Portuguesa 
 **Frase:** 	O atributo **```???```** resultará na criação de uma tabela específica no nível Lógico no Modelo Relacional. 
 
 ---
-### (15)               já foi
+### (15)                já foi
+
 Complete a afirmação abaixo com uma expressão, sem usar espaço em branco, que identifica mais corretamente a classificação da entidade DEPENDENTE.
 Suponha que exista o ME-R envolvendo a entidade EMPREGADO que se relaciona com a entidade DEPENDENTE, sendo este denominado vinculado e com cardinalidade 1:n
 
@@ -218,22 +219,22 @@ Respeite as regras de sintaxe e concordância de nossa Língua para responder es
 ## Discursiva
 
 ---
-### (16)
+### (16)                já foi
 Explique para uma pessoa que está começando seus estudos em Banco de Dados o que significa METADADOS nesta área (Banco de Dados) de maneira com que ela compreenda, sem dúvida o que signifique esta expressão importante nesta área do conhecimento em Informática.
  
 Inclua em sua resposta um simples exemplo. Esta resposta não pode ter menos que 100 caracteres para ser considerada certa, chegando ao máximo de até 500 caracteres. 
 
-**```Resposta   lore inpsum```**
+**```Resposta   Os metadados são informações que descrevem características dos dados, como seus tipos (por exemplo: números inteiros, texto, datas). Os metadados facilitam a compreensão e o gerenciamento dos dados, ajudando os usuários a saberem o que está armazenado e como acessá-lo.```**
 
 ---
-### (17)
+### (17)                já foi
 Explique para uma pessoa que está começando seus estudos em Banco de Dados  (BD) o que significa METADADOS nessa área de conhecimento. Sua explicação deverá tornar compreensível para este novo aprendiz em BD o que METADADOS significa.
  
 Lembre que em BD não se pode ter dúvida sobre o que significa esta importante expressão, incluindo um exemplo simples em sua resposta para ajudar o novo aluno a entender o que é METADADOS.
  
 Esta resposta não pode ter menos que 100 caracteres para ser considerada certa e nem mais que 500 caracteres.
  
-**```Resposta   lore inpsum```**
+**```Resposta   Os metadados são informações que descrevem características dos dados, como seus tipos (por exemplo: números inteiros, texto, datas). Os metadados facilitam a compreensão e o gerenciamento dos dados, ajudando os usuários a saberem o que está armazenado e como acessá-lo.```**
 
 ---
 ### (18)
@@ -244,22 +245,22 @@ Observe a figura geométrica identificada com a letra D em azul e informe o que 
 **```Resposta   lore inpsum```**
 
 ---
-### (19)
+### (19)                já foi
 Explique com suas palavras qual é a Primeira Forma Normal a ser aplicada em um processo de Normalização em um Banco de Dados.
  
 Sua resposta deve possuir mais de 100 caracteres (até 500) explicando o que define a Primeira Forma Normal para que uma pessoa mais leiga neste assunto possa entendê-la. 
 
-**```Resposta   lore inpsum```**
+**```Resposta   Primeira Forma Normal (1FN) exige que todos os atributos de uma tabela sejam atômicos e não multivalorados. Isso significa que cada atributo deve conter um único valor, não uma lista de valores.```**
 
 ---
-### (20)
+### (20)                já foi
 Explique com suas palavras o que é DML na linguagem SQL usada nos Bancos de Dados Relacionais.
  
 Apresente ainda um exemplo correto de uma instrução DML simples, mas completa, explicando o que esta instrução realizaria se fosse executa em um banco de dados.
  
 Sua resposta com exemplo deverá ter pelo menos 150 caracteres e no máximo 500 para poder ser considera correta se estiver explicando claramente o que é DML. 
 
-**```Resposta   lore inpsum```**
+**```Resposta   Linguagem de Manipulação de Dados – São comandos que modificam o conteúdo das tabelas. Os comandos mais comuns são INSERT, UPDATE e DELETE. Um exemplo de instrução DML é "INSERT INTO tabela (coluna1, coluna2) VALUES (valor1, valor2)," que insere dados em uma tabela específica.```**
 
 ---
 
