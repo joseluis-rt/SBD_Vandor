@@ -5,16 +5,16 @@
 
 ## V ou F
 --- 
-### (1)
+### (1)               já foi
 A Chave Primária é o atributo, ou a composição de mais que um atributo, que pode identificar unicamente o registro de uma entidade.
 
-**```Resposta: Verdadeiro / Falso```**
+**```Resposta: Falso```**
 
 ---
-### (2)
+### (2)               já foi
 Os dados estatísticos armazenados por um banco de dados fazem parte dos conteúdos (informações) que os Sistemas Gerenciadores de Banco de Dados (SGBD) guardam em sua base (armazenamento em arquivo).
 
-**```Resposta: Verdadeiro / Falso```**
+**```Resposta: Verdadeiro```**
 
 ---
 
@@ -31,11 +31,11 @@ Os dados estatísticos armazenados por um banco de dados fazem parte dos conteú
 
 ## Múltipla Escolha (só uma alternativa)
 ---
-### (3)
+### (3)                já foi
 A representação em um Diagrama de Esquemas (DE) está associada a qual nível de um Projeto de Banco de Dados, mais especificamente.
 
 - [ ] Abstração
-- [ ] Nível Lógico
+- [x] Nível Lógico
 - [ ] Nível Conceitual
 - [ ] Modelo Físico 
 
@@ -81,23 +81,23 @@ Modelo de Dados Conceitual => C
 - [ ] Primeiro deve ser realizado o modelo identificado como C, seguido de B e por fim A. 
 
 ---
-### (7)
+### (7)               já foi
 A **Restrição de Integridade de Entidade** fornece que característica a um Banco de Dados Relacional quando é implementada.   Selecione a opção mais correta entre as relacionadas a seguir. 
 
-- [ ] Uma chave primária não pode assumir valor nulo nas tuplas da relação.
+- [x] Uma chave primária não pode assumir valor nulo nas tuplas da relação.
 - [ ] Cada atributo das chaves candidatas deve possuir valor único em todas as tuplas da relação.
 - [ ] Inclusão de um atributo de uma relação que referência outra tupla em outra relação, surgindo um novo tipo de chave.
 - [ ] Se refere, mais especificamente, sobre valores ou características que determinados atributos podem assumir no contexto de uma determinada aplicação. 
 
 ---
-### (8)
+### (8)               já foi
 Analise a figura abaixo e indique qual a característica comum a estes dois tipos de atributos representados no DE-R (Diagrama Entidade-Relacionamento) que estão com as letras em verde (C e E).
 
 ![imagemDER](https://sae.unb.br/Figuras/vandorissoli@gmail.com/figuraElipseDE-R.png)
 
 - [ ] Esses 2 atributos sempre geram uma nova tabela no Nível Lógico.
 - [ ] Armazenam mais que um dado na tupla ao qual eles pertençam.
-- [ ] Podem armazenar mais que um dado no atributo que representam no Nível Conceitual.
+- [x] Podem armazenar mais que um dado no atributo que representam no Nível Conceitual.
 - [ ] Não podem ser nulos na tupla, pois guardam vários dados.
 
 ---
@@ -116,7 +116,7 @@ Analise a figura abaixo e indique qual a característica comum a estes dois tipo
 ## Escolha Múltipla (uma ou mais alternativa(s))
 
 ---
-### (9)
+### (9)                já foi
 Analise as expressões abaixo que estão em português e organize a sequência correta para formar uma frase que identifica uma propriedade em Banco de Dados.
  
 Expressão A correponde => "algum aspecto do mundo real e"
@@ -130,31 +130,31 @@ Expressão D correponde => "a alteração no mundo real"
 - [ ] A B D C => corresponde a frase correta de uma propriedade importante de Banco de Dados.
 - [ ] A B C D => corresponde a frase correta de uma propriedade importante de Banco de Dados.
 - [ ] C D A B => corresponde a frase correta de uma propriedade importante de Banco de Dados.
-- [ ] C A D B => corresponde a frase correta de uma propriedade importante de Banco de Dados. 
+- [x] C A D B => corresponde a frase correta de uma propriedade importante de Banco de Dados. 
 
 ---
-### (10)
+### (10)               já foi
 O Sistema Gerenciador de Banco de Dados (SGBD) pode ser dividido em módulos, conforme suas responsabilidades, o que constitui sua Arquitetura Interna de processamento junto ao Banco de Dados e seus usuários.
  
 Indique qual (ou quais) das afirmações a seguir **NÃO** corresponde a responsabilidade do módulo **Processador de Consultas** em um SGBD. 
 
-- [ ] A base de dados e seu catálogo são armazenados em disco (arquivos).
+- [x] A base de dados e seu catálogo são armazenados em disco (arquivos).
 - [ ] Necessidade de manter uma base de estatísticas para estimar o custo das operações solicitadas ao Banco de Dados.
 - [ ] Analisa e otimiza o processamento solicitado ao SGBD para executar o melhor que foi averiguado.
 - [ ] Apura o custo estimado considerando o acesso a disco. 
 
 ---
-### (11)
+### (11)                já foi
 Observando o Diagrama de Esquemas abaixo é possível identificar algumas características que seriam INCORRETAS ao raciocínio do Projeto de Banco de Dados que o envolve.
  
 Assim, atente a este diagrama e identifique quais afirmações NÃO estão corretas para este projeto, baseado neste Diagrama de Esquemas. 
 
 ![imagemDEsquemas](https://sae.unb.br/Figuras/vandorissoli@gmail.com/DE_estudante-curso.png)
 
-- [ ] A chave primária de ESTUDANTE é Codigo que faz relacionamento com CURSO.
-- [ ] Existem 2 relações neste projeto com relacionamento de caridanlidade n:m.
+- [x] A chave primária de ESTUDANTE é Codigo que faz relacionamento com CURSO.
+- [x] Existem 2 relações neste projeto com relacionamento de caridanlidade n:m.
 - [ ] A tabela ESTUDANTE representa a entidade ESTUDANTE, enquanto CURSO representa outra entidade.
-- [ ] A tabela ESTUDANTE representa a entidade ESTUDANTE, enquanto CURSO representa o seu relacionamento e não entidade. 
+- [x] A tabela ESTUDANTE representa a entidade ESTUDANTE, enquanto CURSO representa o seu relacionamento e não entidade. 
 
 ---
 
@@ -197,7 +197,7 @@ Sua resposta deve respeitar as regras de sintaxe corretas na Língua Portuguesa 
 **Frase:** 	O atributo **```???```** resultará na criação de uma tabela específica no nível Lógico no Modelo Relacional. 
 
 ---
-### (15)
+### (15)               já foi
 Complete a afirmação abaixo com uma expressão, sem usar espaço em branco, que identifica mais corretamente a classificação da entidade DEPENDENTE.
 Suponha que exista o ME-R envolvendo a entidade EMPREGADO que se relaciona com a entidade DEPENDENTE, sendo este denominado vinculado e com cardinalidade 1:n
 
@@ -205,7 +205,7 @@ Suponha que exista o ME-R envolvendo a entidade EMPREGADO que se relaciona com a
 
 Respeite as regras de sintaxe e concordância de nossa Língua para responder esta questão, sem usar a expressão dependente que é muito geral. 
 
-**Frase:** 	Assim, a entidade EMPREGADO pode ser chamada de dominante, enquanto a entidade DEPENDENTE será chamada de **```???```** . 
+**Frase:** 	Assim, a entidade EMPREGADO pode ser chamada de dominante, enquanto a entidade DEPENDENTE será chamada de **```subordinada / fraca```** . 
 
 ---
 
