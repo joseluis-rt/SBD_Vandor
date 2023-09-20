@@ -187,14 +187,14 @@ Complete o nome desta restrição na frase a seguir usando a sintaxe correta da 
 **Frase:** 	A restrição de **```???```** é responsável por cada atributo das chaves candidatas possuirem um valor único em todas as tuplas da relação (tabela).
 
 ---
-### (14)
+### (14)                já foi
 Qual o nome do tipo de atributo modelado em um Diagrama de Entidade e Relacionamento (DE-R) que exigirá a criação de uma nova relação (tabela) no mapeamento para Modelo Relacional de Dados (MR).
  
 Preencha a frase a seguir com o nome que identifica este tipo de atributo, responsável por alteração significativa na representação no nível Conceitual para o nível Lógico em um Projeto de Banco de Dados.
  
 Sua resposta deve respeitar as regras de sintaxe corretas na Língua Portuguesa e não possuir nenhum espaço em branco.
 
-**Frase:** 	O atributo **```???```** resultará na criação de uma tabela específica no nível Lógico no Modelo Relacional. 
+**Frase:** 	O atributo **```multivalorado```** resultará na criação de uma tabela específica no nível Lógico no Modelo Relacional. 
 
 ---
 ### (15)                já foi
