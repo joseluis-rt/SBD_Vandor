@@ -174,7 +174,7 @@ Complete a afirmação no singular sobre SGBD (Sistema Gerenciador de Banco de D
  
 Não use nenhum espaço em branco em sua resposta se deseja acertá-la.
 
-**Frase:** 	O módulo do SGBD que verifica se qualquer instrução SQL está correta para ser executada é denominado em nosso estudo de **```validação```** de Consultas. 
+**Frase:** 	O módulo do SGBD que verifica se qualquer instrução SQL está correta para ser executada é denominado em nosso estudo de **```processador```** de Consultas. 
 
 ---
 ### (13)
@@ -184,7 +184,7 @@ Diante das restrições e preservação da integridade de um banco de dados rela
  
 Complete o nome desta restrição na frase a seguir usando a sintaxe correta da língua portuguesa e sem usar nenhum espaço em branco para sua resposta poder ser analisada como correta. 
 
-**Frase:** 	A restrição de **```unicidade```** é responsável por cada atributo das chaves candidatas possuirem um valor único em todas as tuplas da relação (tabela).
+**Frase:** 	A restrição de **```chaves```** é responsável por cada atributo das chaves candidatas possuirem um valor único em todas as tuplas da relação (tabela).
 
 ---
 ### (14)
