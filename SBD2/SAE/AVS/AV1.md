@@ -5,13 +5,13 @@
 
 ## V ou F
 --- 
-### (1)               já foi
+### (1)
 A Chave Primária é o atributo, ou a composição de mais que um atributo, que pode identificar unicamente o registro de uma entidade.
 
 **```Resposta: Falso```**
 
 ---
-### (2)               já foi
+### (2)
 Os dados estatísticos armazenados por um banco de dados fazem parte dos conteúdos (informações) que os Sistemas Gerenciadores de Banco de Dados (SGBD) guardam em sua base (armazenamento em arquivo).
 
 **```Resposta: Verdadeiro```**
@@ -31,7 +31,7 @@ Os dados estatísticos armazenados por um banco de dados fazem parte dos conteú
 
 ## Múltipla Escolha (só uma alternativa)
 ---
-### (3)                já foi
+### (3)
 A representação em um Diagrama de Esquemas (DE) está associada a qual nível de um Projeto de Banco de Dados, mais especificamente.
 
 - [ ] Abstração
@@ -48,7 +48,7 @@ No entanto, não é permitida a ligação no DE-R de um relacionamento com outro
 Como é denominada a representação desta situação no DE-R?
 
 - [ ] Especialização
-- [ ] Agregação
+- [x] Agregação
 - [ ] Cardinalidade
 - [ ] Generalização
 
@@ -61,7 +61,7 @@ Analise o Diagrama de Esquemas (DE) a seguir e identifique em qual Forma Normal 
 - [ ] Primeira Forma Normal (1FN)
 - [ ] Segunda Forma Normal (2FN)
 - [ ] Terceira Forma Normal (3FN)
-- [ ] Não tem classificação em nenhuma Forma Normal, pois NÃO está nem na Primeira (1FN). 
+- [x] Não tem classificação em nenhuma Forma Normal, pois NÃO está nem na Primeira (1FN). 
 
 ---
 ### (6)
@@ -78,10 +78,10 @@ Modelo de Dados Conceitual => C
 - [ ] Primeiro deve ser realizado o modelo identificado como A, seguido de B e por fim C.
 - [ ] Primeiro deve ser realizado o modelo identificado como B, seguido de C e por fim A.
 - [ ] Primeiro deve ser realizado o modelo identificado como B, seguido de A e por fim C.
-- [ ] Primeiro deve ser realizado o modelo identificado como C, seguido de B e por fim A. 
+- [x] Primeiro deve ser realizado o modelo identificado como C, seguido de B e por fim A. 
 
 ---
-### (7)               já foi
+### (7)
 A **Restrição de Integridade de Entidade** fornece que característica a um Banco de Dados Relacional quando é implementada.   Selecione a opção mais correta entre as relacionadas a seguir. 
 
 - [x] Uma chave primária não pode assumir valor nulo nas tuplas da relação.
@@ -90,7 +90,7 @@ A **Restrição de Integridade de Entidade** fornece que característica a um Ba
 - [ ] Se refere, mais especificamente, sobre valores ou características que determinados atributos podem assumir no contexto de uma determinada aplicação. 
 
 ---
-### (8)               já foi
+### (8)
 Analise a figura abaixo e indique qual a característica comum a estes dois tipos de atributos representados no DE-R (Diagrama Entidade-Relacionamento) que estão com as letras em verde (C e E).
 
 ![imagemDER](https://sae.unb.br/Figuras/vandorissoli@gmail.com/figuraElipseDE-R.png)
@@ -116,7 +116,7 @@ Analise a figura abaixo e indique qual a característica comum a estes dois tipo
 ## Escolha Múltipla (uma ou mais alternativa(s))
 
 ---
-### (9)                já foi
+### (9)
 Analise as expressões abaixo que estão em português e organize a sequência correta para formar uma frase que identifica uma propriedade em Banco de Dados.
  
 Expressão A correponde => "algum aspecto do mundo real e"
@@ -133,7 +133,7 @@ Expressão D correponde => "a alteração no mundo real"
 - [x] C A D B => corresponde a frase correta de uma propriedade importante de Banco de Dados. 
 
 ---
-### (10)               já foi
+### (10)
 O Sistema Gerenciador de Banco de Dados (SGBD) pode ser dividido em módulos, conforme suas responsabilidades, o que constitui sua Arquitetura Interna de processamento junto ao Banco de Dados e seus usuários.
  
 Indique qual (ou quais) das afirmações a seguir **NÃO** corresponde a responsabilidade do módulo **Processador de Consultas** em um SGBD. 
@@ -144,7 +144,7 @@ Indique qual (ou quais) das afirmações a seguir **NÃO** corresponde a respons
 - [ ] Apura o custo estimado considerando o acesso a disco. 
 
 ---
-### (11)                já foi
+### (11)
 Observando o Diagrama de Esquemas abaixo é possível identificar algumas características que seriam INCORRETAS ao raciocínio do Projeto de Banco de Dados que o envolve.
  
 Assim, atente a este diagrama e identifique quais afirmações NÃO estão corretas para este projeto, baseado neste Diagrama de Esquemas. 
@@ -174,7 +174,7 @@ Complete a afirmação no singular sobre SGBD (Sistema Gerenciador de Banco de D
  
 Não use nenhum espaço em branco em sua resposta se deseja acertá-la.
 
-**Frase:** 	O módulo do SGBD que verifica se qualquer instrução SQL está correta para ser executada é denominado em nosso estudo de **```???```** de Consultas. 
+**Frase:** 	O módulo do SGBD que verifica se qualquer instrução SQL está correta para ser executada é denominado em nosso estudo de **```validação```** de Consultas. 
 
 ---
 ### (13)
@@ -184,10 +184,10 @@ Diante das restrições e preservação da integridade de um banco de dados rela
  
 Complete o nome desta restrição na frase a seguir usando a sintaxe correta da língua portuguesa e sem usar nenhum espaço em branco para sua resposta poder ser analisada como correta. 
 
-**Frase:** 	A restrição de **```???```** é responsável por cada atributo das chaves candidatas possuirem um valor único em todas as tuplas da relação (tabela).
+**Frase:** 	A restrição de **```unicidade```** é responsável por cada atributo das chaves candidatas possuirem um valor único em todas as tuplas da relação (tabela).
 
 ---
-### (14)                já foi
+### (14)
 Qual o nome do tipo de atributo modelado em um Diagrama de Entidade e Relacionamento (DE-R) que exigirá a criação de uma nova relação (tabela) no mapeamento para Modelo Relacional de Dados (MR).
  
 Preencha a frase a seguir com o nome que identifica este tipo de atributo, responsável por alteração significativa na representação no nível Conceitual para o nível Lógico em um Projeto de Banco de Dados.
@@ -197,7 +197,7 @@ Sua resposta deve respeitar as regras de sintaxe corretas na Língua Portuguesa 
 **Frase:** 	O atributo **```multivalorado```** resultará na criação de uma tabela específica no nível Lógico no Modelo Relacional. 
 
 ---
-### (15)                já foi
+### (15)
 
 Complete a afirmação abaixo com uma expressão, sem usar espaço em branco, que identifica mais corretamente a classificação da entidade DEPENDENTE.
 Suponha que exista o ME-R envolvendo a entidade EMPREGADO que se relaciona com a entidade DEPENDENTE, sendo este denominado vinculado e com cardinalidade 1:n
@@ -219,7 +219,7 @@ Respeite as regras de sintaxe e concordância de nossa Língua para responder es
 ## Discursiva
 
 ---
-### (16)                já foi
+### (16)
 Explique para uma pessoa que está começando seus estudos em Banco de Dados o que significa METADADOS nesta área (Banco de Dados) de maneira com que ela compreenda, sem dúvida o que signifique esta expressão importante nesta área do conhecimento em Informática.
  
 Inclua em sua resposta um simples exemplo. Esta resposta não pode ter menos que 100 caracteres para ser considerada certa, chegando ao máximo de até 500 caracteres. 
@@ -227,7 +227,7 @@ Inclua em sua resposta um simples exemplo. Esta resposta não pode ter menos que
 **```Resposta   Os metadados são informações que descrevem características dos dados, como seus tipos (por exemplo: números inteiros, texto, datas). Os metadados facilitam a compreensão e o gerenciamento dos dados, ajudando os usuários a saberem o que está armazenado e como acessá-lo.```**
 
 ---
-### (17)                já foi
+### (17)
 Explique para uma pessoa que está começando seus estudos em Banco de Dados  (BD) o que significa METADADOS nessa área de conhecimento. Sua explicação deverá tornar compreensível para este novo aprendiz em BD o que METADADOS significa.
  
 Lembre que em BD não se pode ter dúvida sobre o que significa esta importante expressão, incluindo um exemplo simples em sua resposta para ajudar o novo aluno a entender o que é METADADOS.
@@ -242,10 +242,10 @@ Observe a figura geométrica identificada com a letra D em azul e informe o que 
   
 ![imagem](https://sae.unb.br/Figuras/vandorissoli@gmail.com/figuraElipseDE-R.png)
 
-**```Resposta   lore inpsum```**
+**```Resposta   Atributo chave de entidade fraca, é o atributo que identifica unicamente uma Entidade subordianda/fraca. É usada para garantir a unicidade dos registros e estabelecer relacionamentos no banco de dados.```**
 
 ---
-### (19)                já foi
+### (19)
 Explique com suas palavras qual é a Primeira Forma Normal a ser aplicada em um processo de Normalização em um Banco de Dados.
  
 Sua resposta deve possuir mais de 100 caracteres (até 500) explicando o que define a Primeira Forma Normal para que uma pessoa mais leiga neste assunto possa entendê-la. 
@@ -253,7 +253,7 @@ Sua resposta deve possuir mais de 100 caracteres (até 500) explicando o que def
 **```Resposta   Primeira Forma Normal (1FN) exige que todos os atributos de uma tabela sejam atômicos e não multivalorados. Isso significa que cada atributo deve conter um único valor, não uma lista de valores.```**
 
 ---
-### (20)                já foi
+### (20)
 Explique com suas palavras o que é DML na linguagem SQL usada nos Bancos de Dados Relacionais.
  
 Apresente ainda um exemplo correto de uma instrução DML simples, mas completa, explicando o que esta instrução realizaria se fosse executa em um banco de dados.
