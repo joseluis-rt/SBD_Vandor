@@ -15,7 +15,7 @@ O processo de AUDITORIA consiste em dizer o que um usuário do banco de dados po
 ### (2) Visões (view)
 Conhecendo as características dos objetos denominados VISÕES (VIEW) em banco de dados se observa que, diferentemente de tabelas "reais", as visões NÃO armazenam novos dados fisicamente no Sistema Gerenciador de Banco de Dados e por isso não ocupam mais espaço específico em disco rígido para guardar os seus DADOS.
 
-**```Resposta: ```**
+**```Resposta: Verdadeiro```**
 
 ---
 ### (3) Visões (view)
@@ -27,7 +27,7 @@ Acerca dos conceitos de otimização de consultas em SQL e as técnicas de anál
 ### (4) Administração dos Dados
 O dado é gerido em todo o seu ciclo de vida, principalmente quando ele está inserido nas operações de negócio e não mais apenas no ciclo de vida do desenvolvimento dos sistemas.
 
-**```Resposta: ```**
+**```Resposta: Verdadeiro```**
 
 ---
 ### (5) Administração dos Dados
