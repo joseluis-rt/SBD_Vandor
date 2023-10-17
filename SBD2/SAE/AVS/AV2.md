@@ -1,7 +1,7 @@
 # AV2
-- [ ] Controle de Acesso
-- [ ] Visões (view)
-- [ ] Administração dos Dados
+- [x] Controle de Acesso
+- [x] Visões (view)
+- [x] Administração dos Dados
 
 
 ## V ou F
@@ -59,7 +59,7 @@ Selecione qual instrução corresponde a criação de PERFIS no Sistema Gerencia
 - [ ] grant
 - [ ] create user
 - [ ] revoke
-- [ ] nenhum dos comandos relacionados. 
+- [x] nenhum dos comandos relacionados. 
 
 ---
 ### (7) Controle de Acesso
@@ -85,7 +85,7 @@ Escolha a opção que NÃO corresponde as funções da Administração dos Dados
 
 - [ ] Desenvolvimento de políticas e padrões a serem adotados nos dados.
 - [ ] Gerenciamento do Sistema Gerenciador de Banco de Dados (SGBD).
-- [ ] Otimização do SGBD buscando a sua melhor eficiência.
+- [x] Otimização do SGBD buscando a sua melhor eficiência.
 - [ ] Solução de conflitos de dados. 
 
 ---
@@ -207,7 +207,17 @@ LOCAL (idLocal, dsLocal)
  e crie uma visão que mostre os locais diferentes e quantas partidas aconteceram nesses locais, sendo somente estes dois atributos mostradas pela visão com os nomes de LOCAL e QUANTIDADE.
 **Resposta:**
 ```bash
-Escreva aqui.
+CREATE VIEW V_LOCAIS
+
+(local, quantidade) AS
+
+SELECT l.dsLocal,COUNT(j.idLocal)
+
+FROM JOGO j
+
+JOIN LOCAL l ON l.idLocal = j.idLocal
+
+GROUP BY j.idLocal;
 ```
 
 ---
@@ -220,7 +230,7 @@ Que termo seria este? Coloque em sua resposta somente o termo ou expressão que 
 
 **Resposta:**
 ```bash
-Escreva aqui.
+Memória Organizacional.
 ```
 
 ---
