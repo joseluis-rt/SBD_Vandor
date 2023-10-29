@@ -32,13 +32,12 @@ A execução de diversas transações em modo concorrente, pode prejudicar a con
 
 **```Resposta: Verdadeiro```**
 
-### Um bloqueio exclusivo insere um bloqueio no objeto para impedir que outros usuários façam alterações (ou inclusões) neste objeto do Sistema Gerenciador de Banco de Dados (SGBD).
+### (5)
+Um bloqueio exclusivo insere um bloqueio no objeto para impedir que outros usuários façam alterações (ou inclusões) neste objeto do Sistema Gerenciador de Banco de Dados (SGBD).
  
 Contudo, este tipo de bloqueio NÃO é ativado quando já existir um bloqueio compartilhado no mesmo objeto do SGBD.
 
 **```Resposta: Verdadeiro```**
-
-### 
 
 ---
 
@@ -51,7 +50,7 @@ Contudo, este tipo de bloqueio NÃO é ativado quando já existir um bloqueio co
 
 ## Múltipla Escolha (só uma alternativa)
 ---
-### (5)
+### (6)
 
 Qual propriedade em Banco de Dados Relacional é responsável por garantir que a execução concorrente de transações, resulte em uma situação equivalente no sistema ao resultado obtido pela realização das transações uma de cada vez, em qualquer ordem.
 
@@ -61,7 +60,7 @@ Qual propriedade em Banco de Dados Relacional é responsável por garantir que a
 - [ ] Serialização
 - [x] Isolamento
 
-### (6)
+### (7)
 
 No processo de Concorrência indique o nome do método que é mais adequado em situações que a maioria das transações sejam somente de leitura, com baixas taxas de conflito entre elas.
 
@@ -70,7 +69,7 @@ No processo de Concorrência indique o nome do método que é mais adequado em s
 - [x] Técnicas de validação
 - [ ] Esquemas de multiversão
 
-### (7)
+### (8)
 
 Selecione a opção que define corretamente o que é uma Escala Conflito Serializável.
 
@@ -78,6 +77,18 @@ Selecione a opção que define corretamente o que é uma Escala Conflito Seriali
 - [ ] Escala que identifica o conflito e não pode ser executada, similar a uma execução sequencial.
 - [ ] Escala que é crítica e não pode ser executada de maneira sequencial.
 - [ ] Escala conflitante e que não pode ser executada de maneira concorrente.
+
+### (9)
+
+A expressão DEADLOCK é significativa na área de Banco de Dados.
+ 
+Assim, selecione a afirmação mais correta sobre o que significaria esta expressão para área de Banco de Dados.
+
+- [x] Os deadlocks são problemas inerentes ao bloqueio que garante a consistência do Banco de Dados.
+- [ ] Consiste na efetivação de alguma operação que é executada e identifica a inconsistência existente no Banco de Dados.
+- [ ] Um deadlock indica o final do timestamp que uma transação possui para ser executada e será desfeita (abortada).
+- [ ] A operação DDL realizada em um Banco de Dados que é incoerente com as estruturas (tabelas) já existentes neste Banco.
+
 ---
 
 <br/>
@@ -90,7 +101,7 @@ Selecione a opção que define corretamente o que é uma Escala Conflito Seriali
 ## Escolha Múltipla (uma ou mais alternativa(s))
 
 ---
-### (8)
+### (10)
 
 Selecione qual ou quais opções de Estado da Transação que correspondem ao encerramento de uma transação para o banco de dados.  
 
@@ -99,7 +110,7 @@ Selecione qual ou quais opções de Estado da Transação que correspondem ao en
 - [x] Abortada
 - [ ] Falha
 
-### (9)
+### (11)
 
 Durante nosso estudo sobre Transações foram utilizadas algumas expressões em português que indicam o estado da transação. Selecione quais das expressões são coerentes com estes estados, de acordo com o que estudamos nesta disciplina.
 
@@ -108,7 +119,7 @@ Durante nosso estudo sobre Transações foram utilizadas algumas expressões em 
 - [ ] Normalizada
 - [ ] Consistente
 
-### (10)
+### (12)
 
 Diante das opções de problemas na execução de uma Transação em Banco de Dados, selecione qual expressão indicaria que foi detectada uma dificuldade em seu processamento pelo Sistema Gerenciador de Banco de Dados (SGBD) que NÃO permitirá que essa Transação seja EFETIVADA.
 
@@ -117,7 +128,7 @@ Diante das opções de problemas na execução de uma Transação em Banco de Da
 - [ ] Ativa
 - [x] Falha
  
-### (11)
+### (13)
 
 O processamento concorrente para banco de dados envolve diversas complicações, podendo comprometer a consistência da base de dados. No entanto, as tecnologias de banco de dados insistem em usá-las. Por que?   Selecione a opção ou as opções que motivam a tecnologia de banco de dados empregar concorrência em seu processamento.
 
@@ -126,7 +137,7 @@ O processamento concorrente para banco de dados envolve diversas complicações,
 - [x] Acessar partes diferentes do Banco de Dados ao mesmo tempo.
 - [x] Reduz ociosidade do processador (CPU).
 
-### (12)
+### (14)
 
 Indique qual ou quais são os estados da Transação que são conclusívos, ou seja, que encerram a transação.
 
@@ -147,7 +158,7 @@ Indique qual ou quais são os estados da Transação que são conclusívos, ou s
 
 ## Lacuna
 ---
-### (13)
+### (15)
 
 As transações em banco de dados relacionais possuem algumas propriedades relevantes que são reconhecidas pela representação da sigla A.C.I.D.
  
@@ -155,13 +166,13 @@ Escreva a expressão exata e correta que corresponde a letra D desta sigla, conf
 
 **Frase:** 	Esta sigla (A.C.I.D.) tem qual propriedade associada a letra D? Escreva-a a seguir: **```Durabilidade```**. 
 
-### (14)
+### (16)
 
 Para garantir a Serialização são usados vários esquemas (lógicas) de controle sobre a Concorrência em Banco de Dados, sendo alguns mais conhecidos (comuns).   Leia com atenção a expressão abaixo e a complete, sem espaços em branco, para formar um dos nomes destes esquemas mais conhecidos.  
 
 Um esquema ou método bem conhecido é denominado **```Protocolo de bloqueio```** e interrompe o acesso de outros usuários do SGBD temporariamente.
 
-### (15)
+### (17)
 
 Complete as afirmação a seguir sem usar espaços em branco e mantendo a coerência da afirmação sobre o processamento em Banco de Dados Relacional.
 
@@ -177,7 +188,7 @@ As operações que formam uma única unidade lógica de trabalho são chamadas d
 ## Discursiva
 
 ---
-### (16)
+### (18)
 
 O processamento concorrente em Banco de Dados pode empregar o protocolo de BLOQUEIO para garantir a realização segura, respeitando a integridade e mantendo a consistência da base de dados.
 Explique então no que consiste a utilização desse protocolo para realizar esse processamento ágil e concorrente.
@@ -186,7 +197,9 @@ Para sua questão poder ser considerada correta ela deverá possui mais que 150 
 **Resposta:**
 
 ```bash
-Lorem ipsum dolor sit amet.
+O protocolo de BLOQUEIO consiste em um conjunto de regras que estabelece quando uma transação pode bloquear e desbloquear um item de dados do SGBD.
+
+Ele obriga que o acesso a um item de dado seja mutuamente exclusivo, ou seja, enquanto uma transação acessa um item de dado, nenhuma outra transação poderá modificá-lo. 
 ```
 
 ---
