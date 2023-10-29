@@ -9,7 +9,7 @@
 ### (1) Outras Tecnologias de Banco de Dados
 As características inovadoras dos bancos de dados NoSQL facilitam um possível processo de migração para outro banco de dados.
 
-**```Resposta: ```**
+**```Resposta: Falso```**
 
 ### (2) Outras Tecnologias de Banco de Dados
 As bases de dados NoSQL NÃO têm modelos flexíveis de armazenamento de dados.
@@ -46,7 +46,7 @@ No que consiste o processo de fragmentação MISTA nos Banco de Dados Distribuí
 - [ ] Na fragmentação que envolve Banco de Dados diferentes, por exemplo, Oracle com MySQL, DB2 com PostGreSQL, entre outras combinações.
 - [ ] Na fragmentação que permite a cardinalidade entre diferentes tabelas entre bancos de dados diferentes.
 - [ ] Na fragmentação com cardinalidade que varia entre entidades conforme a regra de negócio envolvida na modelagem.
-- [ ] Na fragmentação que combina o tipo horizontal e vertical de fragmentação. 
+- [x] Na fragmentação que combina o tipo horizontal e vertical de fragmentação. 
 
 
 ### (6) Outras Tecnologias de Banco de Dados
@@ -70,21 +70,22 @@ Selecione qual o nome da estrutura lógica que organiza um Banco de Dados Relaci
 
 - [ ] Extensão (extent)
 - [ ] Tablespace
-- [ ] Segment (segmento)
+- [x] Segment (segmento)
 - [ ] Database
 
 ### (8) Projeto Físico de Banco de Dados Relacional
 Assinale qual o significado dos arquivos classificados como Control File em um Banco de Dados Relacional, por exemplo, no Oracle. 
-- [ ] Metadados
+- [x] Metadados
 - [ ] Arquivo de Dados
 - [ ] Arquivo de LOG e recuperação.
 - [ ] Conceitual
 
-### (9) Transações e Concorrência em Banco de Dados  Algumas técnicas ou lógicas foram estudadas sobre como os Sistemas Gerenciadores de Banco de Dados (SGBD) trabalham com o processamento concorrente em suas transações.   Dentre as técnicas estudadas também foram abordadas algumas fragilidades ou dificuldades que o SGBD precisa prever e tratar, entre eles se destaca a anomalia DEADLOCK.   Qual das técnicas estudadas é resistente ao DEADLOCK? 
+### (9) Transações e Concorrência em Banco de Dados
+Algumas técnicas ou lógicas foram estudadas sobre como os Sistemas Gerenciadores de Banco de Dados (SGBD) trabalham com o processamento concorrente em suas transações.   Dentre as técnicas estudadas também foram abordadas algumas fragilidades ou dificuldades que o SGBD precisa prever e tratar, entre eles se destaca a anomalia DEADLOCK.   Qual das técnicas estudadas é resistente ao DEADLOCK? 
 - [ ] Esquemas de Multiversão
 - [ ] Agregação de itens de dados
 - [ ] Protocolo de Bloqueio
-- [ ] Ordenação por Timestamp
+- [x] Ordenação por Timestamp
 
 ---
 
@@ -104,22 +105,22 @@ Assinale qual o significado dos arquivos classificados como Control File em um B
 Indique qual ou quais das decisões abaixo são possíveis de serem realizadas com segurança e adequadamente para o projeto físico de um banco de dados que será implementado por um projeto de banco de dados.
  
 - [ ] Definir qual a chave primária e estrangeira entre as tabelas do projeto. 
-- [ ] Decidir se a Integridade Referencial será garantida pelo SGBD ou pela aplicação.
-- [ ] Definir os índices convenientes a serem criados neste projeto. 
-- [ ] Decidir os tipos de colunas adequados ao projeto.
+- [x] Decidir se a Integridade Referencial será garantida pelo SGBD ou pela aplicação.
+- [x] Definir os índices convenientes a serem criados neste projeto. 
+- [x] Decidir os tipos de colunas adequados ao projeto.
 
 ### (11) Projeto Físico de Banco de Dados Relacional
 Indique quais são as estruturas lógicas de um banco de dados relacional que permitem sua melhor organização na implementação física consequente.
 
-- [ ] Tablespace 
+- [x] Tablespace 
 - [ ] Datafile
-- [ ] Extensão (extent) 
+- [x] Extensão (extent) 
 - [ ] Bloco do Sistema Operacional
 
 ### (12) Transações e Concorrência em Banco de Dados
 Na representação das três transações 0, 1 e 2 pode ser observada a sequência de suas principais operações relacionadas a concorrência entre as três.     Imagine que a transação zero (To) teve uma falha e será abortada, o que deverá acontecer com as transações um e dois desta escala. Selecione uma ou mais opções entre as possíveis. 
 ![Escala_para_analise](https://sae.unb.br/Figuras/vandorissoli@gmail.com/escalaConcorrenciaBD.png)
-- [ ] Provocará o retorno em cascata de T1 e T2. 
+- [x] Provocará o retorno em cascata de T1 e T2. 
 - [ ] Provocará a efetivação de T1 e T2 porque não existe conflito entre as três transações. 
 - [ ] Promoverá a efetivação de T2, que não tem escreva, mas retornará T1.
 - [ ] Abortará parcialmente To (só o escreva) e efetivará todas as operações de leia e também T1 e T2 totalmente.
@@ -127,7 +128,7 @@ Na representação das três transações 0, 1 e 2 pode ser observada a sequênc
 ### (13) Transações e Concorrência em Banco de Dados
 O protocolo de bloqueio em duas fases permite que uma transação bloqueie um item de dado somente após desbloqueá-lo.     No entanto, em um refinamento ao seu funcionamento básico de bloqueio em duas fases esse protocolo poderia realizar o que?     Selecione a opção ou opções que este REFINAMENTO permitiria para este protocolo.
 
-- [ ] Na fase de Expansão a transação poderia promover um bloqueio compartilhado para exclusivo. 
+- [x] Na fase de Expansão a transação poderia promover um bloqueio compartilhado para exclusivo. 
 - [ ] Na fase de Expansão a transação poderia obter bloqueios, mas não poderia realizar nenhum desbloqueio. 
 - [ ] Na fase de Encolhimento a transação poderia liberar bloqueios, mas não conseguiria obter somente os bloqueios exclusivos.
 - [ ] Na fase de Encolhimento rebaixaria um bloqueio compartilhado para exclusivo.
@@ -157,7 +158,7 @@ A tecnologia de Banco de Dados de Colunas (BD de Colunas) tem uma maneira única
  
 Acerca dessa importante informação para os BD de Colunas, complete a frase a seguir, respeitando as regras gramaticais da Língua Portuguesa e não usando nenhum espaço em branco, além de sua resposta estar no plural para poder ser considerada correta.  
 
-**Frase:** A tecnologia de BD de Colunas utiliza **```    ```** virtuais para localizar as tuplas associadas a cada coluna.
+**Frase:** A tecnologia de BD de Colunas utiliza **```identificadores```** virtuais para localizar as tuplas associadas a cada coluna.
 
 ### () Outras Tecnologias de Banco de Dados
 Na tecnologia dos Bancos de Dados Orientados a Objetos existe um conceito importante relacionado a expressão (sigla) OID. Complete a frase abaixo com o exato significado desta sigla (OID) em sua linguagem natural (inglês), estando no singular, para que sua resposta possa ser considerada correta.   Utilize somente um espaço em branco para separar cada palavra em sua resposta.  
