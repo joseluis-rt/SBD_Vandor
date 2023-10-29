@@ -3,6 +3,7 @@
 - [x] Projeto Físico de Banco de Dados Relacional
 - [x] Transações e Concorrência em Banco de Dados
 
+
 ## V ou F
 --- 
 ### (1) Outras Tecnologias de Banco de Dados
@@ -20,31 +21,71 @@ Uma base de dados NoSQL usa linguagem SQL na apuração de suas consultas.
 
 **```Resposta: ```**
 
+### (4) Transações e Concorrência em Banco de Dados
+Para analisar o processamento Concorrente em Banco de Dados por bloqueio é importante representar somente as duas situações existentes, geralmente, denominadas como de bloqueio Compartilhado (S) e Exclusivo (X).
+
+**```Resposta: ```**
+
+
+
+---
+
 <br/>
 <br/>
 <br/>
 <br/>
 
+
+
+
 ## Múltipla Escolha (só uma alternativa)
 ---
-### () Outras Tecnologias de Banco de Dados
+### (5) Outras Tecnologias de Banco de Dados
 No que consiste o processo de fragmentação MISTA nos Banco de Dados Distribuídos?
 
 - [ ] Na fragmentação que envolve Banco de Dados diferentes, por exemplo, Oracle com MySQL, DB2 com PostGreSQL, entre outras combinações.
 - [ ] Na fragmentação que permite a cardinalidade entre diferentes tabelas entre bancos de dados diferentes.
 - [ ] Na fragmentação com cardinalidade que varia entre entidades conforme a regra de negócio envolvida na modelagem.
-- [x] Na fragmentação que combina o tipo horizontal e vertical de fragmentação. 
+- [ ] Na fragmentação que combina o tipo horizontal e vertical de fragmentação. 
 
 
-### () Outras Tecnologias de Banco de Dados
-
+### (6) Outras Tecnologias de Banco de Dados
 A tecnologia de Banco de Dados Textual (SGBDT) é organizada em diferentes tipos de arquivos, estando entre os mais importantes o arquivo responsável por armazenar os registros no banco de dados realmente.
  
 Selecione entre as opções disponíveis qual seria a denominação deste tipo de arquivo que tem tal responsabilidade.
+
 - [ ] Arquivo Mestre
 - [ ] Arquivo de Metadados
 - [ ] Arquivo de Controle
 - [ ] Arquivo Invertido
+
+### (7) Projeto Físico de Banco de Dados Relacional
+Selecione qual o nome da estrutura lógica que organiza um Banco de Dados Relacional e possui as seguintes características:
+ 
++ Armazenam as linhas de dados associadas a tabelas ou clusters;
+ 
++ É composto por um conjunto de extensões alocados para uma estrutura lógica;
+ 
++ Existem vários tipos como de tabelas, índices e outros.
+
+- [ ] Extensão (extent)
+- [ ] Tablespace
+- [ ] Segment (segmento)
+- [ ] Database
+
+### (8) Projeto Físico de Banco de Dados Relacional
+Assinale qual o significado dos arquivos classificados como Control File em um Banco de Dados Relacional, por exemplo, no Oracle. 
+- [ ] Metadados
+- [ ] Arquivo de Dados
+- [ ] Arquivo de LOG e recuperação.
+- [ ] Conceitual
+
+### (9) Transações e Concorrência em Banco de Dados  Algumas técnicas ou lógicas foram estudadas sobre como os Sistemas Gerenciadores de Banco de Dados (SGBD) trabalham com o processamento concorrente em suas transações.   Dentre as técnicas estudadas também foram abordadas algumas fragilidades ou dificuldades que o SGBD precisa prever e tratar, entre eles se destaca a anomalia DEADLOCK.   Qual das técnicas estudadas é resistente ao DEADLOCK? 
+- [ ] Esquemas de Multiversão
+- [ ] Agregação de itens de dados
+- [ ] Protocolo de Bloqueio
+- [ ] Ordenação por Timestamp
+
 ---
 
 
@@ -52,18 +93,45 @@ Selecione entre as opções disponíveis qual seria a denominação deste tipo d
 <br/>
 <br/>
 <br/>
+
+
+
 
 ## Escolha Múltipla (uma ou mais alternativa(s))
-
 ---
 
-### (12) Administração dos Dados
-Selecione a opção ou as opções que são provenientes de uma MÁ (ruim) Administração de Dados nas organizações.
+### (10) Projeto Físico de Banco de Dados Relacional
+Indique qual ou quais das decisões abaixo são possíveis de serem realizadas com segurança e adequadamente para o projeto físico de um banco de dados que será implementado por um projeto de banco de dados.
  
-- [x] Os dados podem estar incorretos ou incompletos no SGBD (Sistema Gerenciados de Banco de Dados).
-- [x] Os dados necessários para as atividades da organização podem não estarem armazenados no SGBD.
-- [x] Pode não existir uma forma de saber como localizar os dados quando são necessários, apesar de estarem no SGBD.
-- [x] Alguns dados podem nunca serem inseridos no SGBD, sendo então perdidos ao possível aproveitamento da organização.
+- [ ] Definir qual a chave primária e estrangeira entre as tabelas do projeto. 
+- [ ] Decidir se a Integridade Referencial será garantida pelo SGBD ou pela aplicação.
+- [ ] Definir os índices convenientes a serem criados neste projeto. 
+- [ ] Decidir os tipos de colunas adequados ao projeto.
+
+### (11) Projeto Físico de Banco de Dados Relacional
+Indique quais são as estruturas lógicas de um banco de dados relacional que permitem sua melhor organização na implementação física consequente.
+
+- [ ] Tablespace 
+- [ ] Datafile
+- [ ] Extensão (extent) 
+- [ ] Bloco do Sistema Operacional
+
+### (12) Transações e Concorrência em Banco de Dados
+Na representação das três transações 0, 1 e 2 pode ser observada a sequência de suas principais operações relacionadas a concorrência entre as três.     Imagine que a transação zero (To) teve uma falha e será abortada, o que deverá acontecer com as transações um e dois desta escala. Selecione uma ou mais opções entre as possíveis. 
+![Escala_para_analise](https://sae.unb.br/Figuras/vandorissoli@gmail.com/escalaConcorrenciaBD.png)
+- [ ] Provocará o retorno em cascata de T1 e T2. 
+- [ ] Provocará a efetivação de T1 e T2 porque não existe conflito entre as três transações. 
+- [ ] Promoverá a efetivação de T2, que não tem escreva, mas retornará T1.
+- [ ] Abortará parcialmente To (só o escreva) e efetivará todas as operações de leia e também T1 e T2 totalmente.
+
+### (13) Transações e Concorrência em Banco de Dados
+O protocolo de bloqueio em duas fases permite que uma transação bloqueie um item de dado somente após desbloqueá-lo.     No entanto, em um refinamento ao seu funcionamento básico de bloqueio em duas fases esse protocolo poderia realizar o que?     Selecione a opção ou opções que este REFINAMENTO permitiria para este protocolo.
+
+- [ ] Na fase de Expansão a transação poderia promover um bloqueio compartilhado para exclusivo. 
+- [ ] Na fase de Expansão a transação poderia obter bloqueios, mas não poderia realizar nenhum desbloqueio. 
+- [ ] Na fase de Encolhimento a transação poderia liberar bloqueios, mas não conseguiria obter somente os bloqueios exclusivos.
+- [ ] Na fase de Encolhimento rebaixaria um bloqueio compartilhado para exclusivo.
+
 
 ---
 
@@ -71,17 +139,20 @@ Selecione a opção ou as opções que são provenientes de uma MÁ (ruim) Admin
 <br/>
 <br/>
 <br/>
+
+
+
 
 ## Lacuna
 ---
-### () Outras Tecnologias de Banco de Dados 
+### (14) Outras Tecnologias de Banco de Dados 
 Diante dos estudos e características dos Bancos de Dados Dedutivos (SGBDDed), analise a afirmação a seguir e a complete corretamente, não usando nenhum espaço em branco em sua resposta e respeitando as regras gramaticais da Língua Portuguesa (concordância e sintaxe, principalmente).
 As pesquisas ou consultas realizadas sobre a tecnologia dos Bancos de Dados Dedutivos (SGBDDed) geram os chamados p________.
  
 
 **Frase:** Qual expressão muito comum na tecnologia dos SGBDDed completaria a frase anterior corretamente? Preencha-a aqui: **```    ```**
 
-### () Outras Tecnologias de Banco de Dados
+### (15) Outras Tecnologias de Banco de Dados
 A tecnologia de Banco de Dados de Colunas (BD de Colunas) tem uma maneira única de trabalhar com as tuplas para não perder nenhum dado.
  
 Acerca dessa importante informação para os BD de Colunas, complete a frase a seguir, respeitando as regras gramaticais da Língua Portuguesa e não usando nenhum espaço em branco, além de sua resposta estar no plural para poder ser considerada correta.  
@@ -93,6 +164,13 @@ Na tecnologia dos Bancos de Dados Orientados a Objetos existe um conceito import
 
 **Frase:** O significado de OID nos Bancos de Dados Orientados a Objetos é **```    ```**.
 
+### (16) Projeto Físico de Banco de Dados Relacional
+Observando a estrutura lógica de um banco de dados relacional, por exemplo o Oracle, que organiza sua estrutura de implementação física, escreva o NOME DO RECURSO em português correto, sem usar nenhum espaço em branco em sua resposta, que:     + Corresponde a menor unidade física transportável entre arquivos de dados e a memória do computador;     + É formado por Cabeçalho, Espaço Livre e Dados.
+
+O **```    ```** é a menor estrutura de armazenamento do Banco de Dados.
+
+---
+
 <br/>
 <br/>
 <br/>
@@ -102,7 +180,7 @@ Na tecnologia dos Bancos de Dados Orientados a Objetos existe um conceito import
 ## Discursiva
 
 ---
-### () Outras Tecnologias de Banco de Dados 
+### (17) Outras Tecnologias de Banco de Dados 
 A rede mundial de computadores (Internet) vem se destacando cada vez mais como uma excelente ferramenta para disponibilização e interligação de dados das mais diversas fontes e naturezas.
 A geomática (informática com geopreocessamento), como área do conhecimento, também encontrou na Internet um nicho para suas atividades, disponibilizando mapas digitais online que permitem que um maior número de usuários tenha acesso à dados espacializados, de forma hábil e atraente.
 Como são chamados esse tipo de disponibilização de dados na Internet?
@@ -110,7 +188,28 @@ Como são chamados esse tipo de disponibilização de dados na Internet?
 **Resposta:**
 ```bash
 ```
+### (18) Projeto Físico de Banco de Dados Relacional
+Diante das regras que podem ser aplicadas no processo de "mapeamento" entre o nível conceitual de um Projeto de Banco de Dados e sua aproximação do nivel inferior, o Diagrama de Esquema é uma ferramenta importante.   Explique com suas palavras o que deve ser feito na aplicação da regra envolvendo um relacionamento que possui cardinalidade 1:n , ou seja, use de pelo menos 100 e no máximo 500 caracteres para explicar para um iniciante no estudo de Banco de Dados o que deve ser feito para implementação deste tipo de relacionamento com aplicação desta regra.
+**Resposta:**
+```bash
+```
 
+### (19) Projeto Físico de Banco de Dados Relacional
+Explique com suas palavras qual a diferença entre processmento em BATCH ou ON LINE, procurando esclarecer sobre cada um destes dois tipos de processamento em Banco de Dados?   Sua resposta deverá ser esclarecedora sobre estes dois tipos, tendo mais que 100 caracteres e menos que 500, além de respeitar as regras e normas da língua portuguesa nacional para que a mesma possa ser compreendida. 
+**Resposta:**
+```bash
+```
+
+### (20) Projeto Físico de Banco de Dados Relacional
+A área de Banco de Dados possui possibilidades interessantes ao envolvimento profissional (carreira) na área de Tecnologia da Informação. Porém, algumas expressões importantes a esta área são de fundamental importância.   Assim, explique com suas palavras o que significa THROUGHPUT para área de Banco de Dados. Para sua resposta poder ser considerada correta ela deve possui mais que 100 caracteres e menos que 500, além de explicar o que significa THROUGHPUT. 
+**Resposta:**
+```bash
+```
+### (21) Transações e Concorrência em Banco de Dados
+ O processamento concorrente em Banco de Dados pode empregar o protocolo de BLOQUEIO para garantir a realização segura, respeitando a integridade e mantendo a consistência da base de dados.   Explique então no que consiste a utilização desse protocolo para realizar esse processamento ágil e concorrente.   Para sua questão poder ser considerada correta ela deverá possui mais que 150 caracteres (máximo de 500) explicando no que consiste o protocolo de BLOQUEIO. 
+**Resposta:**
+```bash
+```
 
 <br/>
 <br/>
