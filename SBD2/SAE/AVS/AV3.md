@@ -160,12 +160,12 @@ Acerca dessa importante informação para os BD de Colunas, complete a frase a s
 
 **Frase:** A tecnologia de BD de Colunas utiliza **```identificadores```** virtuais para localizar as tuplas associadas a cada coluna.
 
-### () Outras Tecnologias de Banco de Dados
+### (16) Outras Tecnologias de Banco de Dados
 Na tecnologia dos Bancos de Dados Orientados a Objetos existe um conceito importante relacionado a expressão (sigla) OID. Complete a frase abaixo com o exato significado desta sigla (OID) em sua linguagem natural (inglês), estando no singular, para que sua resposta possa ser considerada correta.   Utilize somente um espaço em branco para separar cada palavra em sua resposta.  
 
 **Frase:** O significado de OID nos Bancos de Dados Orientados a Objetos é **```    ```**.
 
-### (16) Projeto Físico de Banco de Dados Relacional
+### (17) Projeto Físico de Banco de Dados Relacional
 Observando a estrutura lógica de um banco de dados relacional, por exemplo o Oracle, que organiza sua estrutura de implementação física, escreva o NOME DO RECURSO em português correto, sem usar nenhum espaço em branco em sua resposta, que:     + Corresponde a menor unidade física transportável entre arquivos de dados e a memória do computador;     + É formado por Cabeçalho, Espaço Livre e Dados.
 
 O **```    ```** é a menor estrutura de armazenamento do Banco de Dados.
@@ -181,7 +181,7 @@ O **```    ```** é a menor estrutura de armazenamento do Banco de Dados.
 ## Discursiva
 
 ---
-### (17) Outras Tecnologias de Banco de Dados 
+### (18) Outras Tecnologias de Banco de Dados 
 A rede mundial de computadores (Internet) vem se destacando cada vez mais como uma excelente ferramenta para disponibilização e interligação de dados das mais diversas fontes e naturezas.
 A geomática (informática com geopreocessamento), como área do conhecimento, também encontrou na Internet um nicho para suas atividades, disponibilizando mapas digitais online que permitem que um maior número de usuários tenha acesso à dados espacializados, de forma hábil e atraente.
 Como são chamados esse tipo de disponibilização de dados na Internet?
@@ -189,24 +189,24 @@ Como são chamados esse tipo de disponibilização de dados na Internet?
 **Resposta:**
 ```bash
 ```
-### (18) Projeto Físico de Banco de Dados Relacional
+### (19) Projeto Físico de Banco de Dados Relacional
 Diante das regras que podem ser aplicadas no processo de "mapeamento" entre o nível conceitual de um Projeto de Banco de Dados e sua aproximação do nivel inferior, o Diagrama de Esquema é uma ferramenta importante.   Explique com suas palavras o que deve ser feito na aplicação da regra envolvendo um relacionamento que possui cardinalidade 1:n , ou seja, use de pelo menos 100 e no máximo 500 caracteres para explicar para um iniciante no estudo de Banco de Dados o que deve ser feito para implementação deste tipo de relacionamento com aplicação desta regra.
 **Resposta:**
 ```bash
 ```
 
-### (19) Projeto Físico de Banco de Dados Relacional
+### (20) Projeto Físico de Banco de Dados Relacional
 Explique com suas palavras qual a diferença entre processmento em BATCH ou ON LINE, procurando esclarecer sobre cada um destes dois tipos de processamento em Banco de Dados?   Sua resposta deverá ser esclarecedora sobre estes dois tipos, tendo mais que 100 caracteres e menos que 500, além de respeitar as regras e normas da língua portuguesa nacional para que a mesma possa ser compreendida. 
 **Resposta:**
 ```bash
 ```
 
-### (20) Projeto Físico de Banco de Dados Relacional
+### (21) Projeto Físico de Banco de Dados Relacional
 A área de Banco de Dados possui possibilidades interessantes ao envolvimento profissional (carreira) na área de Tecnologia da Informação. Porém, algumas expressões importantes a esta área são de fundamental importância.   Assim, explique com suas palavras o que significa THROUGHPUT para área de Banco de Dados. Para sua resposta poder ser considerada correta ela deve possui mais que 100 caracteres e menos que 500, além de explicar o que significa THROUGHPUT. 
 **Resposta:**
 ```bash
 ```
-### (21) Transações e Concorrência em Banco de Dados (Em lista)
+### (22) Transações e Concorrência em Banco de Dados (Em lista)
  O processamento concorrente em Banco de Dados pode empregar o protocolo de BLOQUEIO para garantir a realização segura, respeitando a integridade e mantendo a consistência da base de dados.   Explique então no que consiste a utilização desse protocolo para realizar esse processamento ágil e concorrente.   Para sua questão poder ser considerada correta ela deverá possui mais que 150 caracteres (máximo de 500) explicando no que consiste o protocolo de BLOQUEIO. 
 **Resposta:**
 ```bash
