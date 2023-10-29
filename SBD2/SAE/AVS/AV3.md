@@ -205,10 +205,13 @@ A área de Banco de Dados possui possibilidades interessantes ao envolvimento pr
 **Resposta:**
 ```bash
 ```
-### (21) Transações e Concorrência em Banco de Dados
+### (21) Transações e Concorrência em Banco de Dados (Em lista)
  O processamento concorrente em Banco de Dados pode empregar o protocolo de BLOQUEIO para garantir a realização segura, respeitando a integridade e mantendo a consistência da base de dados.   Explique então no que consiste a utilização desse protocolo para realizar esse processamento ágil e concorrente.   Para sua questão poder ser considerada correta ela deverá possui mais que 150 caracteres (máximo de 500) explicando no que consiste o protocolo de BLOQUEIO. 
 **Resposta:**
 ```bash
+O protocolo de BLOQUEIO consiste em um conjunto de regras que estabelece quando uma transação pode bloquear e desbloquear um item de dados do SGBD.
+
+Ele obriga que o acesso a um item de dado seja mutuamente exclusivo, ou seja, enquanto uma transação acessa um item de dado, nenhuma outra transação poderá modificá-lo.
 ```
 
 <br/>
