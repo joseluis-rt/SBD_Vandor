@@ -14,17 +14,17 @@ As características inovadoras dos bancos de dados NoSQL facilitam um possível 
 ### (2) Outras Tecnologias de Banco de Dados
 As bases de dados NoSQL NÃO têm modelos flexíveis de armazenamento de dados.
 
-**```Resposta: ```**
+**```Resposta: Falso```**
 
 ### (3) Outras Tecnologias de Banco de Dados
 Uma base de dados NoSQL usa linguagem SQL na apuração de suas consultas.
 
-**```Resposta: ```**
+**```Resposta: Falso```**
 
 ### (4) Transações e Concorrência em Banco de Dados
 Para analisar o processamento Concorrente em Banco de Dados por bloqueio é importante representar somente as duas situações existentes, geralmente, denominadas como de bloqueio Compartilhado (S) e Exclusivo (X).
 
-**```Resposta: ```**
+**```Resposta: Falso```**
 
 
 
@@ -57,7 +57,7 @@ Selecione entre as opções disponíveis qual seria a denominação deste tipo d
 - [ ] Arquivo Mestre
 - [ ] Arquivo de Metadados
 - [ ] Arquivo de Controle
-- [ ] Arquivo Invertido
+- [x] Arquivo Invertido
 
 ### (7) Projeto Físico de Banco de Dados Relacional
 Selecione qual o nome da estrutura lógica que organiza um Banco de Dados Relacional e possui as seguintes características:
@@ -151,7 +151,7 @@ Diante dos estudos e características dos Bancos de Dados Dedutivos (SGBDDed), a
 As pesquisas ou consultas realizadas sobre a tecnologia dos Bancos de Dados Dedutivos (SGBDDed) geram os chamados p________.
  
 
-**Frase:** Qual expressão muito comum na tecnologia dos SGBDDed completaria a frase anterior corretamente? Preencha-a aqui: **```    ```**
+**Frase:** Qual expressão muito comum na tecnologia dos SGBDDed completaria a frase anterior corretamente? Preencha-a aqui: **```predicados```**
 
 ### (15) Outras Tecnologias de Banco de Dados
 A tecnologia de Banco de Dados de Colunas (BD de Colunas) tem uma maneira única de trabalhar com as tuplas para não perder nenhum dado.
@@ -163,12 +163,12 @@ Acerca dessa importante informação para os BD de Colunas, complete a frase a s
 ### (16) Outras Tecnologias de Banco de Dados
 Na tecnologia dos Bancos de Dados Orientados a Objetos existe um conceito importante relacionado a expressão (sigla) OID. Complete a frase abaixo com o exato significado desta sigla (OID) em sua linguagem natural (inglês), estando no singular, para que sua resposta possa ser considerada correta.   Utilize somente um espaço em branco para separar cada palavra em sua resposta.  
 
-**Frase:** O significado de OID nos Bancos de Dados Orientados a Objetos é **```    ```**.
+**Frase:** O significado de OID nos Bancos de Dados Orientados a Objetos é **```Object Identifier```**.
 
 ### (17) Projeto Físico de Banco de Dados Relacional
 Observando a estrutura lógica de um banco de dados relacional, por exemplo o Oracle, que organiza sua estrutura de implementação física, escreva o NOME DO RECURSO em português correto, sem usar nenhum espaço em branco em sua resposta, que:     + Corresponde a menor unidade física transportável entre arquivos de dados e a memória do computador;     + É formado por Cabeçalho, Espaço Livre e Dados.
 
-O **```    ```** é a menor estrutura de armazenamento do Banco de Dados.
+O **```bloco```** é a menor estrutura de armazenamento do Banco de Dados.
 
 ---
 
@@ -188,23 +188,27 @@ Como são chamados esse tipo de disponibilização de dados na Internet?
 
 **Resposta:**
 ```bash
+Esse tipo de disponibilização de dados na Internet é chamado de "Serviços de Mapas Online", que permitem que os usuários acessem e interajam com dados espacializados de forma conveniente e atraente.
 ```
 ### (19) Projeto Físico de Banco de Dados Relacional
 Diante das regras que podem ser aplicadas no processo de "mapeamento" entre o nível conceitual de um Projeto de Banco de Dados e sua aproximação do nivel inferior, o Diagrama de Esquema é uma ferramenta importante.   Explique com suas palavras o que deve ser feito na aplicação da regra envolvendo um relacionamento que possui cardinalidade 1:n , ou seja, use de pelo menos 100 e no máximo 500 caracteres para explicar para um iniciante no estudo de Banco de Dados o que deve ser feito para implementação deste tipo de relacionamento com aplicação desta regra.
 **Resposta:**
 ```bash
+Para um relacionamento 1:n em um Diagrama de Esquema de Banco de Dados, conecte a entidade "1" a várias entidades "n" com uma linha para indicar que uma única ocorrência na "1" está associada a várias ocorrências na "n".
 ```
 
 ### (20) Projeto Físico de Banco de Dados Relacional
 Explique com suas palavras qual a diferença entre processmento em BATCH ou ON LINE, procurando esclarecer sobre cada um destes dois tipos de processamento em Banco de Dados?   Sua resposta deverá ser esclarecedora sobre estes dois tipos, tendo mais que 100 caracteres e menos que 500, além de respeitar as regras e normas da língua portuguesa nacional para que a mesma possa ser compreendida. 
 **Resposta:**
 ```bash
+Batch é processamento em lote, offline e programado. Online é processamento em tempo real e interativo em bancos de dados.
 ```
 
 ### (21) Projeto Físico de Banco de Dados Relacional
 A área de Banco de Dados possui possibilidades interessantes ao envolvimento profissional (carreira) na área de Tecnologia da Informação. Porém, algumas expressões importantes a esta área são de fundamental importância.   Assim, explique com suas palavras o que significa THROUGHPUT para área de Banco de Dados. Para sua resposta poder ser considerada correta ela deve possui mais que 100 caracteres e menos que 500, além de explicar o que significa THROUGHPUT. 
 **Resposta:**
 ```bash
+THROUGHPUT em Banco de Dados é a medida da capacidade de processamento e transferência de dados de um sistema, refletindo sua eficiência e desempenho.
 ```
 ### (22) Transações e Concorrência em Banco de Dados (Em lista)
  O processamento concorrente em Banco de Dados pode empregar o protocolo de BLOQUEIO para garantir a realização segura, respeitando a integridade e mantendo a consistência da base de dados.   Explique então no que consiste a utilização desse protocolo para realizar esse processamento ágil e concorrente.   Para sua questão poder ser considerada correta ela deverá possui mais que 150 caracteres (máximo de 500) explicando no que consiste o protocolo de BLOQUEIO. 
