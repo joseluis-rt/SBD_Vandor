@@ -35,7 +35,7 @@ Os dados estatísticos armazenados por um banco de dados fazem parte dos conteú
 A representação em um Diagrama de Esquemas (DE) está associada a qual nível de um Projeto de Banco de Dados, mais especificamente.
 
 - [ ] Abstração
-- [x] Nível Lógico
+- [x] **Nível Lógico**
 - [ ] Nível Conceitual
 - [ ] Modelo Físico 
 
@@ -48,7 +48,7 @@ No entanto, não é permitida a ligação no DE-R de um relacionamento com outro
 Como é denominada a representação desta situação no DE-R?
 
 - [ ] Especialização
-- [x] Agregação
+- [x] **Agregação**
 - [ ] Cardinalidade
 - [ ] Generalização
 
@@ -61,7 +61,7 @@ Analise o Diagrama de Esquemas (DE) a seguir e identifique em qual Forma Normal 
 - [ ] Primeira Forma Normal (1FN)
 - [ ] Segunda Forma Normal (2FN)
 - [ ] Terceira Forma Normal (3FN)
-- [x] Não tem classificação em nenhuma Forma Normal, pois NÃO está nem na Primeira (1FN). 
+- [x] **Não tem classificação em nenhuma Forma Normal, pois NÃO está nem na Primeira (1FN).**
 
 ---
 ### (6)
@@ -78,13 +78,13 @@ Modelo de Dados Conceitual => C
 - [ ] Primeiro deve ser realizado o modelo identificado como A, seguido de B e por fim C.
 - [ ] Primeiro deve ser realizado o modelo identificado como B, seguido de C e por fim A.
 - [ ] Primeiro deve ser realizado o modelo identificado como B, seguido de A e por fim C.
-- [x] Primeiro deve ser realizado o modelo identificado como C, seguido de B e por fim A. 
+- [x] **Primeiro deve ser realizado o modelo identificado como C, seguido de B e por fim A.**
 
 ---
 ### (7)
 A **Restrição de Integridade de Entidade** fornece que característica a um Banco de Dados Relacional quando é implementada.   Selecione a opção mais correta entre as relacionadas a seguir. 
 
-- [x] Uma chave primária não pode assumir valor nulo nas tuplas da relação.
+- [x] **Uma chave primária não pode assumir valor nulo nas tuplas da relação.**
 - [ ] Cada atributo das chaves candidatas deve possuir valor único em todas as tuplas da relação.
 - [ ] Inclusão de um atributo de uma relação que referência outra tupla em outra relação, surgindo um novo tipo de chave.
 - [ ] Se refere, mais especificamente, sobre valores ou características que determinados atributos podem assumir no contexto de uma determinada aplicação. 
@@ -97,7 +97,7 @@ Analise a figura abaixo e indique qual a característica comum a estes dois tipo
 
 - [ ] Esses 2 atributos sempre geram uma nova tabela no Nível Lógico.
 - [ ] Armazenam mais que um dado na tupla ao qual eles pertençam.
-- [x] Podem armazenar mais que um dado no atributo que representam no Nível Conceitual.
+- [x] **Podem armazenar mais que um dado no atributo que representam no Nível Conceitual.**
 - [ ] Não podem ser nulos na tupla, pois guardam vários dados.
 
 ---
@@ -130,7 +130,7 @@ Expressão D correponde => "a alteração no mundo real"
 - [ ] A B D C => corresponde a frase correta de uma propriedade importante de Banco de Dados.
 - [ ] A B C D => corresponde a frase correta de uma propriedade importante de Banco de Dados.
 - [ ] C D A B => corresponde a frase correta de uma propriedade importante de Banco de Dados.
-- [x] C A D B => corresponde a frase correta de uma propriedade importante de Banco de Dados. 
+- [x] **C A D B => corresponde a frase correta de uma propriedade importante de Banco de Dados.**
 
 ---
 ### (10)
@@ -138,7 +138,7 @@ O Sistema Gerenciador de Banco de Dados (SGBD) pode ser dividido em módulos, co
  
 Indique qual (ou quais) das afirmações a seguir **NÃO** corresponde a responsabilidade do módulo **Processador de Consultas** em um SGBD. 
 
-- [x] A base de dados e seu catálogo são armazenados em disco (arquivos).
+- [x] **A base de dados e seu catálogo são armazenados em disco (arquivos).**
 - [ ] Necessidade de manter uma base de estatísticas para estimar o custo das operações solicitadas ao Banco de Dados.
 - [ ] Analisa e otimiza o processamento solicitado ao SGBD para executar o melhor que foi averiguado.
 - [ ] Apura o custo estimado considerando o acesso a disco. 
@@ -151,10 +151,10 @@ Assim, atente a este diagrama e identifique quais afirmações NÃO estão corre
 
 ![imagemDEsquemas](https://sae.unb.br/Figuras/vandorissoli@gmail.com/DE_estudante-curso.png)
 
-- [x] A chave primária de ESTUDANTE é Codigo que faz relacionamento com CURSO.
-- [x] Existem 2 relações neste projeto com relacionamento de caridanlidade n:m.
+- [x] **A chave primária de ESTUDANTE é Codigo que faz relacionamento com CURSO.**
+- [x] **Existem 2 relações neste projeto com relacionamento de caridanlidade n:m.**
 - [ ] A tabela ESTUDANTE representa a entidade ESTUDANTE, enquanto CURSO representa outra entidade.
-- [x] A tabela ESTUDANTE representa a entidade ESTUDANTE, enquanto CURSO representa o seu relacionamento e não entidade. 
+- [x] **A tabela ESTUDANTE representa a entidade ESTUDANTE, enquanto CURSO representa o seu relacionamento e não entidade.** 
 
 ---
 

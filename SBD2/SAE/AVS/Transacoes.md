@@ -59,13 +59,13 @@ Selecione qual instrução corresponde a criação de PERFIS no Sistema Gerencia
 - [ ] grant
 - [ ] create user
 - [ ] revoke
-- [x] nenhum dos comandos relacionados. 
+- [x] **nenhum dos comandos relacionados.** 
 
 ---
 ### (7) Controle de Acesso
 Selecione a opção que **NÃO** corresponde a uma característica dos privilégios que podem ser fornecidos aos usuários de um Sistema Gerenciador de Banco de Dados Relacional (SGBDR) quando a opção **WITH ADMIN OPTION** estiver sendo usada para conceder o privilégio sobre um recurso do banco de dados.
 
-- [x] Só pode ser fornecido para usuários e não para perfis (papéis) de usuários do banco de dados.
+- [x] **Só pode ser fornecido para usuários e não para perfis (papéis) de usuários do banco de dados.**
 - [ ] Permite ao usuário que recebeu o privilégio repassar para outros usuários do sistema.
 - [ ] Permite revogar o privilégio concediro a outro usuário sobre o recurso do banco de dados em questão.
 - [ ] Torna possível alterar o privilégio de qualquer usuário que tenha algum privilégio sobre o recurso do banco de dados em questão.
@@ -77,7 +77,7 @@ Observando as características das visões (VIEW) em SQL NÃO é CORRETO afirmar
 - [ ] As visões (consultas) são armazenadas de forma persistente no Sistema Gerenciador de Banco de Dados (SGBD).
 - [ ] As visões oferecem suporte para a execução de consultas avançadas que podem ser destinadas para a mineração de dados (Data Mining).
 - [ ] As visões correspondem a um resumo do Sistema Gerenciador de Banco de Dados (SGBD) em suas consultas.
-- [x] As visões são livres das restrições do processamento de transações no SGBD. 
+- [x] **As visões são livres das restrições do processamento de transações no SGBD.**
 
 ---
 ### (9) Administração dos Dados
@@ -110,7 +110,7 @@ O **controle de acesso** é relevante para a segurança de um Banco de Dados.
  
 Assim, observe qual ou quais das instruções está correta para criar o usuário **sasuke** no banco de dados MySQL e a(s) selecione.
  
-- [x] CREATE USER 'sasuke'@'localhost' IDENTIFIED BY 'boladefogo';
+- [x] **CREATE USER 'sasuke'@'localhost' IDENTIFIED BY 'boladefogo';**
 - [ ] CREATE USER 'sasuke' IDENTIFY BY 'boladefogo';
 - [ ] CREATE USER 'sasuke' IDENTIFIED 'boladefogo';
 - [ ] CREATE USER 'sasuke'@'localhost' IDENTIFY 'boladefogo';
@@ -132,16 +132,16 @@ UPDATE VVV SET nomeA='Carlos' WHERE matricula=12329;
 - [ ] Instrução DML será executada porque a visão não possui nenhum agrupamento ou ordenação.
 - [ ] Instrução não será executada porque nenhuma instrução DML pode ser efetuada sobre uma VISÃO em Banco de Dados.
 - [ ] Instrução DML será executada sobre as tabelas base porque não usa o operador DISTINCT em seu SELECT.
-- [ ] Instrução DML não será executada porque não preserva a chave das tabelas base envolvidas.
+- [x] **Instrução DML não será executada porque não preserva a chave das tabelas base envolvidas.**
 
 ---
 ### (12) Administração dos Dados
 Selecione a opção ou as opções que são provenientes de uma MÁ (ruim) Administração de Dados nas organizações.
  
-- [x] Os dados podem estar incorretos ou incompletos no SGBD (Sistema Gerenciados de Banco de Dados).
-- [x] Os dados necessários para as atividades da organização podem não estarem armazenados no SGBD.
-- [x] Pode não existir uma forma de saber como localizar os dados quando são necessários, apesar de estarem no SGBD.
-- [x] Alguns dados podem nunca serem inseridos no SGBD, sendo então perdidos ao possível aproveitamento da organização.
+- [x] **Os dados podem estar incorretos ou incompletos no SGBD (Sistema Gerenciados de Banco de Dados).**
+- [x] **Os dados necessários para as atividades da organização podem não estarem armazenados no SGBD.**
+- [x] **Pode não existir uma forma de saber como localizar os dados quando são necessários, apesar de estarem no SGBD.**
+- [x] **Alguns dados podem nunca serem inseridos no SGBD, sendo então perdidos ao possível aproveitamento da organização.**
 
 ---
 

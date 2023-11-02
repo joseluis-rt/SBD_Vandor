@@ -72,11 +72,11 @@ Analise os aspectos abaixo e indique qual o tipo de arquivo coerente a estes asp
 - Acesso aos registros são feitos sequencialmente;
  
 - Aperfeiçoa o armazenamento de registros dispostos aleatoriamente no arquivo de dados.
- 
-- [ ] Arquivo Direto
-- [x] **Arquivo Sequencial**
-- [ ] Arquivo Indexado
-- [ ] Arquivo Batch
+
+* [ ] Arquivo Direto
+* [x] **Arquivo Sequencial**
+* [ ] Arquivo Indexado
+* [ ] Arquivo Batch
 
 ---
 
