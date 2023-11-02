@@ -1,6 +1,6 @@
 # Sistemas de Banco de Dados (1/2) - Vandor
 
-## Colaboradores
+## Criadores
 
 <table>
   
@@ -14,7 +14,7 @@
       </a>
     </td>
         <td align="center">
-      <a href="#">
+      <a href="https://github.com/Peedrooo">
         <img src="https://avatars.githubusercontent.com/u/69866365?v=4" width="100px;" alt="Foto Pedro"/><br>
         <sub>
           <b>Pedro Jesus</b>
@@ -36,5 +36,7 @@
   <tr>
     
 </table>
+
+## Colaboradores
 
 <br/> 

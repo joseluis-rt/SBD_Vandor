@@ -9,7 +9,7 @@ A existência de um Banco de Dados está condicionada ao emprego adequado de rec
 ---
 Analise a afirmativa em relação aos Sistemas Gerenciadores de Banco de Dados (SGBD) e indique se ela está correta. 
 
-**A estrutura de ARQUIVOS DE DADOS é armazenada no catálogo do SGBD, separadamente do programa (ou programas) responsável pelo acesso aos dados.**
+*A estrutura de ARQUIVOS DE DADOS é armazenada no catálogo do SGBD, separadamente do programa (ou programas) responsável pelo acesso aos dados.*
 
 **```Resposta: Verdadeiro```**
 
