@@ -154,18 +154,17 @@ Conhecendo um pouco mais sobre o funcionamento do recurso de **Índice** para o 
 Assim, informe o que está armazenado no arquivo de índice (**quais dados formam este arquivo**) usando menos que 150 caracteres para indicar, objetivamente, quais as informações que este arquivo guarda para agilizar a procura de tuplas no SGBD.
 
 **Resposta:**
-```bash
 
-```
+
 ### (13) Consultas Avançadas
 Explique com suas palavras, usando de 150 até 500 caracteres, o que corresponde a **Regra de Equivalência** no processo  relacionado a Otimização de Consultas em bancos de dados relacionais.
  
 Tenha em mente que sua explicação estará esclarecendo a uma pessoa leiga no assunto o que é **Regra de Equivalência** no processo de otimização de consultas em banco de dados para que a sua resposta possa ser considerada correta.
 
 **Resposta:**
-```bash
+
 A Regra de Equivalência garante que a transformação de uma consulta em outra expressão produzirá o mesmo resultado. Isso significa que as relações geradas pelas diferentes expressões terão o mesmo conjunto de atributos, contendo a mesma quantidade de tuplas, embora seus atributos possam estar ordenados de froma diferente.
-```
+
 
 
 <br/>
