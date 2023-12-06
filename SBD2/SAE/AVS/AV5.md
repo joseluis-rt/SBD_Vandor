@@ -147,7 +147,7 @@ Para sua resposta ser considerada correta ela deverá estar respeitando todas as
 <br/>
 
 
-## Discursiva (já caíram nas listas, então não devem cair)
+## Discursiva 
 
 ---
 ### (11) 
