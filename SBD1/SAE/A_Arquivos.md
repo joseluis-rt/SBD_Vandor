@@ -9,7 +9,7 @@ A existência de um Banco de Dados está condicionada ao emprego adequado de rec
 ---
 Analise a afirmativa em relação aos Sistemas Gerenciadores de Banco de Dados (SGBD) e indique se ela está correta. 
 
-**A estrutura de ARQUIVOS DE DADOS é armazenada no catálogo do SGBD, separadamente do programa (ou programas) responsável pelo acesso aos dados.**
+*A estrutura de ARQUIVOS DE DADOS é armazenada no catálogo do SGBD, separadamente do programa (ou programas) responsável pelo acesso aos dados.*
 
 **```Resposta: Verdadeiro```**
 
@@ -72,11 +72,11 @@ Analise os aspectos abaixo e indique qual o tipo de arquivo coerente a estes asp
 - Acesso aos registros são feitos sequencialmente;
  
 - Aperfeiçoa o armazenamento de registros dispostos aleatoriamente no arquivo de dados.
- 
-- [ ] Arquivo Direto
-- [x] **Arquivo Sequencial**
-- [ ] Arquivo Indexado
-- [ ] Arquivo Batch
+
+* [ ] Arquivo Direto
+* [x] **Arquivo Sequencial**
+* [ ] Arquivo Indexado
+* [ ] Arquivo Batch
 
 ---
 
