@@ -161,7 +161,7 @@ BEGIN
  
   SELECT COUNT (*)
  
-    FROM pessoas
+   FROM pessoas
  
   WHERE idPessoa = id;
 END; 
