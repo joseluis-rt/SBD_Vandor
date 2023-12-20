@@ -7,14 +7,14 @@
 ### (1)
 Os Sistemas Gerenciadores de Banco de Dados Relacionais (SGBDR) não possuem muitos recursos de programação procedural, dividindo a responsabilidade de implementações coerentes com as aplicações que utilizarão seus recursos para armazenar os dados.
 
-**```Resposta: ```**
+**```Resposta: Falso```**
 
 ### (2) 
 A possibilidade da programação procedural nos Sistemas Gerenciadores de Banco de Dados (SGBD) enriquecem e flexibilizam a sua utilização de forma muito interessante para a proteção dos dados e das regras de negócios importantes para manter a integridade no SGBD.
  
 Diante desse potencial, a linguagem procedural (**PL** - Procedural Languange) de cada SGBD possibilita invocar explicitamente um trigger que garanta as regras de negócios coerentes a proteção dos dados. 
 
-**```Resposta: ```**
+**```Resposta: Falso```**
 
 ---
 
@@ -130,7 +130,7 @@ A programação em servidores de banco de dados pode acontece de maneira procedu
 - pode receber parâmetros
 - só é acionado (executado) explicitamente.
 
-**Frase:**  Além das functions, os servidores de Banco de Dados também podem ser programados por S**```store procedure```**. 
+**Frase:**  Além das functions, os servidores de Banco de Dados também podem ser programados por S **```store procedure```**. 
 
 ### (10)
 Preencha a lacuna de forma coerente com a frase a seguir que aborda um recurso interessante da programação procedural nos Sistemas Gerenciadores de Banco de Dados (SGBD). Esse recurso envolve um conjunto ativo de registros (tuplas) retornados por uma consulta (SELECT) para a memória e não para a tela do usuário.
