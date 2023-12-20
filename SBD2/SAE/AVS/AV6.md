@@ -7,7 +7,7 @@
 ### (1)
 Os dados NÃO ESTRUTURADOS, também chamados de DESESTRUTURADOS, possuem como suas características particulares a estrutura irregular e embutida (misturada) nos dados.
 
-**```Resposta: ```**
+**```Resposta: Falso```**
 
 ### (2) 
 Apurando as características dos tipos de dados diferentes é possível observar que somente os SEMIESTRUTURADOS possuem uma estrutura irregular, extensa e descritiva.
@@ -25,7 +25,7 @@ A expressão dos **"Quatro V's do Big Data"** (The Four V's of Big Data) corresp
  
  Versatilidade. 
 
-**```Resposta: ```**
+**```Resposta: Falso```**
 
 ---
 
@@ -39,25 +39,59 @@ A expressão dos **"Quatro V's do Big Data"** (The Four V's of Big Data) corresp
 
 ## Múltipla Escolha (só uma alternativa)
 ---
-### (3)
-Imagine uma situação em que a criação de restrições de consistência e validade, que não possam ser implementadas com constraints, precisem ser garantidas pelo Sistema Gerenciador de Banco de Dados (SGBD) para assegurar o que estará sendo armazenado envolvendo algumas tabelas.
- 
-Selecione qual seria o **melhor** recurso procedural do SGBD para garantir essa implementação.
-
-- [ ] Stored Procedure
-- [ ] Constraint Unique
-- [ ] Function
-- [x] Trigger 
-
 ### (4)
-A elaboração de um TRIGGER possui características específicas a serem implementadas no servidor de banco de dados, **NÃO** sendo correto afirmar o que?
+Os **depósitos de dados** voltados para o processo decisório gerencial e que podem ser definidos como espécies de mesmo tipo e estrutura são chamados de?
  
-Selecione a afirmação que está **INCORRETA** para o recurso de TRIGGER nos Sistemas Gerenciadores de Banco de Dados (SGBD). 
+Selecione a opção mais correta para responder a questão acima entre as alternativas disponíveis a seguir.
 
-- [x] O trigger deve ser declarado como uma function para trabalhar com parâmetros e retornar seu resultado.
-- [ ] O trigger é armazenado no banco de dados e pode ser composto de instruções em SQL e da linguagem procedural do SGBD.
-- [ ] O gatilho (trigger) pode referenciar variáveis especiais com os identificadores de correlação NEW e OLD.
-- [ ] Existem triggers especificas para trabalharem com transações envolvendo DML e DDL do SGBD.
+- [ ] Business Intelligence e Data Mining.
+- [x] Data Mart e Data Warehouse.
+- [ ] Data Warehouse e Data Mining.
+- [ ] Data Mining e Data mart. 
+
+### (5)
+Qual das alternativas abaixo descreve melhor o **Data Mining** ?
+
+- [x] Mineração de dados com a intenção de extrair de uma base de dados algum "conhecimento".
+- [ ] É uma "Mina de dados", sendo uma base de dados que contém um grande amontoado de dados.
+- [ ] Mineração de datas com a intenção de catalogar manipulações realizadas sobre um bancos de dados (DML's e DDL's).
+- [ ] Mina que armazena e tem a responsabilidade de manipular datas (aspecto temporal) que descrevem as transações do banco de dados (LOGs).
+
+### (6)
+Conhecendo um pouco sobre a tecnologia do Business Intelligence (**B.I.**) é possível compreender seus principais objetivos.   Assim, selecione entre as alternativas apresentadas por esta questão qual seria a mais correta e significativa aos objetivos do **B.I**. 
+
+- [ ] Aumentar a capacidade de acesso aos dados
+- [ ] Armazenar uma grande quantidade de dados
+- [ ] Aumentar a segurança dos dados de uma empresa
+- [x] Ajudar na tomada de decisões de uma empresa
+
+### (7)
+A variação de padrões para o armazenamento persistente de dados justifica o uso de qual tipo de banco de dados entre os que foram estudados nesta disciplina, uma vez que esses padrões representam estruturas diferentes, configurando um cenário típico de uso de uma dessas tecnologias para guardar esses dados de maneira mais segura e confiável.
+
+- [ ] Relacional
+- [ ] Orientado a objeto
+- [ ] Semi-estruturado
+- [ ] Distribuído 
+
+### (8)
+"Não existe uma separação entre os dados e o esquema, estando contidos como dados os próprios esquemas".
+ 
+A afirmação acima está mais relacionada a qual dos tipos de dados relacionados a seguir? 
+
+- [x] Semiestruturado
+- [ ] Estruturado
+- [ ] Não estruturado
+- [ ] A todos os tipos de dados.
+
+### (9)
+Observando aspectos fundamentais da Ontologia algumas propriedades são identificadas e relevantes em sua elaboração.
+ 
+A RIGIDEZ é uma delas e possui diferentes características. Assim, selecione qual dos exemplos abaixo corresponderia a uma abordagem da RIGIDEZ sendo SEMI-RÍGIDA.
+
+- [ ] O conceito de Pessoa, quando Ana não pode deixar de ser uma Pessoa enquanto ela existir.
+- [ ] O conceito Estudante, Ana pode deixar de ser Estudante, mas ela ainda continuará existindo.
+- [x] O conceito Potável, a água límpida e também o suco de fruta natural.
+- [ ] O conceito Pai, José poderá um dia ser Pai, mas nunca deixará de ser Pessoa.
 
 ---
 
@@ -72,49 +106,35 @@ Selecione a afirmação que está **INCORRETA** para o recurso de TRIGGER nos Si
 
 ## Escolha Múltipla (uma ou mais alternativa(s))
 ---
-### (5)
-Analise as instruções a seguir e selecione as afirmações corretas.
+### (10)
+A Unified Foundation Ontology (UFO) está organizada em algumas partes.
  
-CREATE TRIGGER Acessos  AFTER LOGON ON DATABASE
- 
- BEGIN
- 
-    INSERT INTO dadosAcesso VALUES (USER, 'Acesso');
- 
- END; 
- 
-- [ ] Implementa um Stored Procedure que insere dados na estrutura dadosAcesso.
-- [x] Implementa um gatilho que será disparado depois da conexão com uma base de dados.
-- [x] Realiza uma operação implícita mediante um evento na base de dados.
-- [ ] Implementa um gatilho que será disparado antes da conexão com uma base de dados.
+Selecione qual ou quais das opções **NÃO** corresponderia a uma das partes da UFO.
 
-### (6)
-Considere no MySQL a existência do procedimento VERIFICAVOTO, que recebe dois parâmetros: idCandidato e nroVotos. Foi criado o trigger TRGVOTO na tabela CANDIDATO que é acionado antes da operação de INSERT e chama esse procedimento para executar a lógica de negócios com os novos idCandidato e número de votos como parâmetros.
- 
-CREATE TRIGGER TRGVOTO x ON CANDIDATO FOR EACH ROW
- 
-BEGIN
- 
-  VERIFICAVOTO( y );
- 
-END;
- 
-Indique a opção correta que preencheria as lacunas indicadas como x e y acima.
+- [x] Uma ontologia de relações.
+- [ ] Uma ontologia de entidades sociais.
+- [ ] Uma ontologia de indivíduos.
+- [ ] Uma ontologia de eventos.
 
-- [ ] ABOVE - new idCandidato, new nroVotos
-- [ ] BEFORE - :new.idCandidato, :new.nroVotos
-- [x] BEFORE - new.idCandidato, new.nroVotos
-- [ ] AFTER - :new.idCandidato, :new.nroVotos 
-
-### (7)
-A Programação Procedural em um servidor de banco de dados promove algumas vantagens para o seu funcionamento coerente.
+### (11)
+A possibilidade de modelagens alternativas envolve várias propostas interessantes, entre elas a **Ontologia**.
  
-Selecione somente as vantagens para o processamento do Servidor do Sistema Gerenciador de Banco de Dados (SGBD) que utiliza a Programação Procedural.
+No entanto, algumas confusões estão relacionadas as suas definições. Assim, selecione a opção ou opções que **NÃO** são características da **Ontologia**, ou que **NÃO** a define corretamente. 
 
-- [x] Suporte integral da Linguagem SQL utilizada pelo SGBD.
-- [x] Definição de regras de negócio não abrangidas pelo projeto relacional no SGBD.
-- [ ] Melhorar performance do SGBD.
-- [x] Programação procedural integrada com o SGBD.
+- [x] Conjuntos de conceitos associados a palavras-chave.
+- [x] Esquemas de bancos de dados.
+- [ ] Acordo conceitual compartilhado, descrito formalmente.
+- [x] Simples hierarquias.
+
+### (12)
+A linguagem XML (eXtensible Markup Language) objetiva tratar conteúdo, diferentemente da linguagem HTML (Hypertext Markup Language) que trabalha a apresentação.
+ 
+Selecione a(s) opção(ões) que indicam VANTAGENS interessantes de empregar a XML para manipulação e armazenamento de dados.
+
+- [ ] Estrutura os dados para o armazenamento mais eficiente
+- [ ] Interoperabilidade
+- [ ] Modularidade e Reutilização
+- [ ] Extensibilidade 
 
 ---
 
@@ -128,27 +148,37 @@ Selecione somente as vantagens para o processamento do Servidor do Sistema Geren
 
 ## Lacuna
 ---
-### (8)
-A utilização de IDENTIFICADORES DE CORRELAÇÃO na implementação de Triggers no Sistema Gerenciador de Banco de Dados (SGBD) possibilita a elaboração de códigos mais eficientes por permitir manipular dados em momentos diferentes aos seus processamentos.
+### (13)
+Complete a frase com uma palavra correta na Língua Portuguesa e sem usar nenhum espaço em branco, se desejar que sua resposta esteja correta.
  
-Esses IDENTIFICADORES são tratados pelo compilador do SGBD como registros, mas realmente não são. Diante de suas características, complete a instrução a seguir escrevendo SOMENTE o IDENTIFICADOR mais correto que permite utilizar os valores anteriores a uma remoção realizada por uma Trigger.
+A expressão utilizada também deverá estar no plural e sem nenhum acento.
 
-**Frase:** O Identificador de Correlação dos SGBDs que permite a utilização de dados anteriores a um remoção em uma trigger é: **```old```**.
+**Frase:** O Cientista de Dados é o profissional responsável por transformar **```#```** em informações, ou produtos de informações, em uma organização.
 
-### (9)
-A programação em servidores de banco de dados pode acontece de maneira procedural, envolvendo codificações específicas as necessidades existentes e possíveis por tal programação. Complete a afirmação abaixo, respeitando a grafia correta no SINGULAR e em INGLÊS, de qual recurso de programação é possível nestes servidores. Este recurso tem as seguintes caracterísicas:
-- programado de forma procedural
-- pode receber parâmetros
-- só é acionado (executado) explicitamente.
-
-**Frase:**  Além das functions, os servidores de Banco de Dados também podem ser programados por S **```store procedure```**. 
-
-### (10)
-Preencha a lacuna de forma coerente com a frase a seguir que aborda um recurso interessante da programação procedural nos Sistemas Gerenciadores de Banco de Dados (SGBD). Esse recurso envolve um conjunto ativo de registros (tuplas) retornados por uma consulta (SELECT) para a memória e não para a tela do usuário.
+### (14)
+Com uma abordagem inicial, que envolveu um estudo inicial sobre Ontologia, foi possível conhece alguns aspectos importantes de sua fundamentação, principalmente explorando a Ontologia de Fundamentação (**OF**).
  
-Para sua resposta ser considerada correta ela deverá estar respeitando todas as regras de sintaxe e de semântica da língua portuguesa, caso contrário estará incorreta.
+Assim, compreenda a frase a seguir e a complete usando espaço somento onde for necessário para leitura adequada da frase a seguir.
+ 
+Tenha o cuidado na elaboração da frase correta para a língua Portuguesa, caso contrário a sua solução será considerada incorreta.
 
-**Frase:** Um **```cursor```** lida com uma área de contexto na memória que recebeu dado(s) proveniente(s) de uma instrução SQL.  
+**Frase:** A Ontologia de Fundamentação pretende fornecer maior nível semântico do mundo para a **```#```** de dado domínio de conhecimento. 
+
+### (15)
+Complete a frase a seguir sem usar espaços em branco e respeitando as regras de sintaxe da Língua Portuguesa, após refletir sobre a afirmação:
+  "Criados de acordo com alguma conceitualização que descreve conceitos e seus estados ou situações."
+
+**Frase:** Importante para algumas áreas, inclusive para a Informática, pois produz artefatos relevantes a partir da Modelagem **```Conceitual```** .
+
+### (16)
+Analise o esclarecimento a seguir e complete a frase instrutiva corretamente para o tipo de dado mais pertinente.
+ 
+**Não utilize nenhum espaço em branco ou qualquer caracter que não seja letra pertencente ao alfabeto** em sua resposta para completar a frase correta na Língua Portuguesa e respeite o plural necessário para concordância correta da frase.
+ 
+Caso NÃO sejam respeitadas as regras de grafia indicadas e coerentes com a língua, sua resposta será considerada INCORRETA. 
+
+**Frase:** Os Dados **```Semi-estruturados```** são indicados como sem esquema (schemaless) e autodescritivos.
+
 
 ---
 
@@ -161,21 +191,17 @@ Para sua resposta ser considerada correta ela deverá estar respeitando todas as
 ## Discursiva 
 
 ---
-### (11) 
-Suponha que o SGBD possua a implementação abaixo.  Qual instrução no MySQL acionaria este stored procedure?
+### (17) 
+A sigla KDD faz referência a uma definição importante na área de Banco de Dados e extração de conhecimento.
  
-Escreva a instrução exata que o aciona indicando id 5387.
+Assim, escreva o que está comprimido nessa sigla em sua linguagem original (inglês) e o que ela representa em português.
+
+**Resposta:**
+
+### (18)
+A sigla OWL faz referência a uma definição relevante que alia recursos de descrição (ou definição) na área de TI (Tecnologia da Informação).
  
-CREATE PROCEDURE  contaEmails(id INT)
- 
-BEGIN
- 
-  SELECT COUNT (*)
- 
-   FROM pessoas
- 
-  WHERE idPessoa = id;
-END; 
+Assim, escreva o que está comprimido nessa sigla em sua linguagem original (inglês) e o que ela representa em português.
 
 **Resposta:**
 
