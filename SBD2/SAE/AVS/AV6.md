@@ -12,7 +12,7 @@ Os dados NÃO ESTRUTURADOS, também chamados de DESESTRUTURADOS, possuem como su
 ### (2) 
 Apurando as características dos tipos de dados diferentes é possível observar que somente os SEMIESTRUTURADOS possuem uma estrutura irregular, extensa e descritiva.
 
-**```Resposta: ```**
+**```Resposta: Falso```**
 
 ### (3)
 A expressão dos **"Quatro V's do Big Data"** (The Four V's of Big Data) corresponde a algumas das principais características da tecnologia do BIG DATA, fazendo referência a:
@@ -70,7 +70,7 @@ A variação de padrões para o armazenamento persistente de dados justifica o u
 
 - [ ] Relacional
 - [ ] Orientado a objeto
-- [ ] Semi-estruturado
+- [x] Semi-estruturado
 - [ ] Distribuído 
 
 ### (8)
@@ -132,9 +132,9 @@ A linguagem XML (eXtensible Markup Language) objetiva tratar conteúdo, diferent
 Selecione a(s) opção(ões) que indicam VANTAGENS interessantes de empregar a XML para manipulação e armazenamento de dados.
 
 - [ ] Estrutura os dados para o armazenamento mais eficiente
-- [ ] Interoperabilidade
-- [ ] Modularidade e Reutilização
-- [ ] Extensibilidade 
+- [x] Interoperabilidade
+- [x] Modularidade e Reutilização
+- [x] Extensibilidade 
 
 ---
 
@@ -153,7 +153,7 @@ Complete a frase com uma palavra correta na Língua Portuguesa e sem usar nenhum
  
 A expressão utilizada também deverá estar no plural e sem nenhum acento.
 
-**Frase:** O Cientista de Dados é o profissional responsável por transformar **```#```** em informações, ou produtos de informações, em uma organização.
+**Frase:** O Cientista de Dados é o profissional responsável por transformar **```dados```** em informações, ou produtos de informações, em uma organização.
 
 ### (14)
 Com uma abordagem inicial, que envolveu um estudo inicial sobre Ontologia, foi possível conhece alguns aspectos importantes de sua fundamentação, principalmente explorando a Ontologia de Fundamentação (**OF**).
@@ -162,7 +162,7 @@ Assim, compreenda a frase a seguir e a complete usando espaço somento onde for 
  
 Tenha o cuidado na elaboração da frase correta para a língua Portuguesa, caso contrário a sua solução será considerada incorreta.
 
-**Frase:** A Ontologia de Fundamentação pretende fornecer maior nível semântico do mundo para a **```#```** de dado domínio de conhecimento. 
+**Frase:** A Ontologia de Fundamentação pretende fornecer maior nível semântico do mundo para a **```Modelagem Conceitual```** de dado domínio de conhecimento. 
 
 ### (15)
 Complete a frase a seguir sem usar espaços em branco e respeitando as regras de sintaxe da Língua Portuguesa, após refletir sobre a afirmação:
@@ -196,14 +196,14 @@ A sigla KDD faz referência a uma definição importante na área de Banco de Da
  
 Assim, escreva o que está comprimido nessa sigla em sua linguagem original (inglês) e o que ela representa em português.
 
-**Resposta:**
+**Resposta: A "Descoberta de Conhecimento em Bases de Dados" (Knowledge Discovery in Databases, KDD)**
 
 ### (18)
 A sigla OWL faz referência a uma definição relevante que alia recursos de descrição (ou definição) na área de TI (Tecnologia da Informação).
  
 Assim, escreva o que está comprimido nessa sigla em sua linguagem original (inglês) e o que ela representa em português.
 
-**Resposta:**
+**Resposta: A Ontology Web Language (OWL) uma linguagem para definir e instanciar Ontologias na WEB.**
 
 ---
 
