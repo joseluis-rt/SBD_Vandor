@@ -179,6 +179,18 @@ Dentre as opções selecione somente os dispositivos que pertencem a classifica�
 - [ ] Cache 
 
 ---
+Começando a conhecer a importância da expressão CHAVE em Banco de Dados, selecionea opção, ou opções, que sejam coerentes com uma CHAVE DE ACESSO, também chamada de CHAVE DE PESQUISA, para o uso computacional na manipulação de arquivos de dados e registros.
+
+- [ ]	Corresponde ao identificador único de um registro de arquivo.
+- [ ] Chave que tem a responsabilidadde de estabelecer o relacionamento de registros em arquivos diferentes.  
+- [x] **Corresponde ao valor que será udaso para procurar registro(s) no arquivo.**
+- [ ] A chave de pesquisa ou de acesso é responsável pela conexão que omusuário irá efetivar no Banco de Dados para mexer nos arquivos.
+
+---
+
+
+
+
 
 
 
