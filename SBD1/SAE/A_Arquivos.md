@@ -108,7 +108,6 @@ Qual seria o tipo de arquivo de dados que utliza esta estrutura associada.
 ---
 Entre as opções abaixo selecione qual dispositivo de armazenamento de dados é mais rápido na recuperação de dados entre os indicados (disponíveis nesta questão).
  
- 
 - [ ] Memória Principal, também chamada de memória RAM.
 - [ ] Pen drive
 - [x] **Cache**
@@ -119,13 +118,21 @@ O armazenamento de dados na memória do computador promove a maior agilidade em 
 Por isso, é aconselhável o armazenamento em qual tipo de dispositivo que mantem estes dados disponíveis, mesmo que uma falta de energia venha a acontecer.
 Selecione o nome da classificação destes dispositivos de armazenamento.
  
- 
 - [ ] Arquivos  
 - [x] **Secundários**
 - [ ] Pentes de memória     
 - [ ] Registros
 
 ---
+Começando a conhecer a importância da expressão CHAVE em Banco de Dados, selecionea opção, ou opções, que sejam coerentes com uma CHAVE DE ACESSO, também chamada de CHAVE DE PESQUISA, para o uso computacional na manipulação de arquivos de dados e registros.
+
+- [ ]	Corresponde ao identificador único de um registro de arquivo.
+- [ ] Chave que tem a responsabilidadde de estabelecer o relacionamento de registros em arquivos diferentes.  
+- [x] **Corresponde ao valor que será udaso para procurar registro(s) no arquivo.**
+- [ ] A chave de pesquisa ou de acesso é responsável pela conexão que omusuário irá efetivar no Banco de Dados para mexer nos arquivos.
+---
+
+
 
 
 
@@ -177,14 +184,6 @@ Dentre as opções selecione somente os dispositivos que pertencem a classifica�
 - [x] **Disco Magnético (HD).**
 - [x] **Pen drive**
 - [ ] Cache 
-
----
-Começando a conhecer a importância da expressão CHAVE em Banco de Dados, selecionea opção, ou opções, que sejam coerentes com uma CHAVE DE ACESSO, também chamada de CHAVE DE PESQUISA, para o uso computacional na manipulação de arquivos de dados e registros.
-
-- [ ]	Corresponde ao identificador único de um registro de arquivo.
-- [ ] Chave que tem a responsabilidadde de estabelecer o relacionamento de registros em arquivos diferentes.  
-- [x] **Corresponde ao valor que será udaso para procurar registro(s) no arquivo.**
-- [ ] A chave de pesquisa ou de acesso é responsável pela conexão que omusuário irá efetivar no Banco de Dados para mexer nos arquivos.
 
 ---
 
