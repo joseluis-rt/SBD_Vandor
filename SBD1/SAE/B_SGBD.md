@@ -223,4 +223,15 @@ Analise a frase a seguir e a complete corretamente, sem usar espaços em branco 
 
 ---
 
+<br/>
+<br/>
+<br/>
+<br/>
 
+## Discursiva
+---
+Descreva no singular o que significa, EXATAMENTE, a sigla **SGBD** em banco de dados. Respeite a sintaxe correta em português para escrita do que está sigla significa.
+
+Separe com somente um espaço em branco cada palavra descrita nesta sigla e mantenha todas as expressões no singular, com exceção da última palavra dessa sigla que é significativa ao que estamos estudando na disciplina.
+
+**```Sistema Gerenciador de Banco de Dados.```**
